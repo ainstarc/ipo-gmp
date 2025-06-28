@@ -32,6 +32,16 @@ function getCurrentTheme() {
     return "light";
 }
 
+function renderFire(val: string) {
+    if (!val) return "—";
+    // Count fire emojis
+    const count = (val.match(/🔥/g) || []).length;
+    const isDark = typeof document !== "undefined" && document.documentElement.getAttribute("data-theme") === "dark";
+    const icon = isDark ? "🌙" : "🔥";
+    if (count > 0) return <span className={styles.fireBadge}>{count} {icon}</span>;
+    return val;
+}
+
 function renderGmpValue(val: string) {
     const cleaned = cleanGmpValue(val);
     if (!cleaned || cleaned === "--" || cleaned === "₹-- (0.00%)" || cleaned === "0.00%") {
@@ -43,25 +53,24 @@ function renderGmpValue(val: string) {
         const percent = parseFloat(match[1]);
         const theme = getCurrentTheme();
         const colorClass = getGmpColorClass(percent, theme);
-        return <span className={colorClass}>{cleaned}</span>;
+        // Heatmap dot color
+        const dotStyle = { background: getGmpHeatDotColor(percent, theme) };
+        return <span><span className={styles.gmpHeatDot} style={dotStyle}></span><span className={colorClass}>{cleaned}</span></span>;
     }
     return <span className={styles.gmpTextNeutral}>{cleaned}</span>;
 }
 
-function renderFire(val: string) {
-    if (!val) return "—";
-    // Count fire emojis
-    const count = (val.match(/🔥/g) || []).length;
-    if (count > 0) return <span style={{ color: "#ff9800", fontWeight: 600 }}>{count} 🔥</span>;
-    return val;
-}
-
-function renderDate(val: string) {
-    // Convert 27-Jun-2025 to 27-Jun
-    if (/\d{2}-[A-Za-z]{3}-\d{4}/.test(val)) {
-        return val.slice(0, 6);
-    }
-    return val;
+// Helper for heatmap dot color (reuse color scale)
+function getGmpHeatDotColor(percent: number, theme: string) {
+    if (percent <= -5) return theme === "dark" ? "#ff6b81" : "#8B0000";
+    if (percent > -5 && percent <= 0) return theme === "dark" ? "#ff8c8c" : "#D73027";
+    if (percent > 0 && percent <= 5) return theme === "dark" ? "#ffd580" : "#FDAE61";
+    if (percent > 5 && percent <= 15) return theme === "dark" ? "#ffe066" : "#FEE08B";
+    if (percent > 15 && percent <= 25) return theme === "dark" ? "#d9ef8b" : "#D9EF8B";
+    if (percent > 25 && percent <= 35) return theme === "dark" ? "#91cf60" : "#91CF60";
+    if (percent > 35 && percent <= 45) return theme === "dark" ? "#4be37a" : "#1A9850";
+    if (percent > 45) return theme === "dark" ? "#4be3b2" : "#006837";
+    return theme === "dark" ? "#b0b3b8" : "#888";
 }
 
 // Helper to get fire count from a row
@@ -78,6 +87,14 @@ function getFireRowClass(fireCount: number) {
     if (fireCount === 2) return styles.fireRow2;
     if (fireCount === 1) return styles.fireRow1;
     return "";
+}
+
+function renderDate(val: string) {
+    // Convert 27-Jun-2025 to 27-Jun
+    if (/\d{2}-[A-Za-z]{3}-\d{4}/.test(val)) {
+        return val.slice(0, 6);
+    }
+    return val;
 }
 
 const GMPTable: React.FC<GMPTableProps> = ({ headers, rows }) => {

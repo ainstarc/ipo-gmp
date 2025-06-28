@@ -1,3 +1,12 @@
+:root {
+  --accent-day: #ffe066;
+  --accent-day-strong: #007a3d;
+  --accent-night: #b3c6ff;
+  --accent-night-strong: #4b6fff;
+  --bg-day: #fffbe6;
+  --bg-night: #232b3b;
+}
+
 body {
   font-family: var(--font-geist-sans, Arial, sans-serif);
   background: #f5f6fa;

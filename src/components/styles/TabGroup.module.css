@@ -4,6 +4,15 @@
   margin-bottom: 2rem;
   justify-content: center;
   flex-wrap: wrap;
+  background: #fffbe6;
+  border-radius: 1vw;
+  box-shadow: 0 2px 8px 0 rgba(255, 224, 102, 0.08);
+  padding: 0.5vw 1vw;
+}
+
+[data-theme="dark"] .tabList {
+  background: #232b3b;
+  box-shadow: 0 2px 8px 0 rgba(179, 198, 255, 0.08);
 }
 
 .tab {
@@ -20,18 +29,37 @@
   outline: none;
 }
 
+[data-theme="dark"] .tab {
+  background: #232b3b;
+  color: #b3c6ff;
+}
+
 .tab:hover,
 .tab:focus {
-  background: #e0e0e0;
-  color: #007a3d;
-  box-shadow: 0 2px 8px rgba(0, 122, 61, 0.08);
+  background: #ffe066;
+  color: #23272e;
+  box-shadow: 0 2px 8px rgba(255, 224, 102, 0.08);
+}
+
+[data-theme="dark"] .tab:hover,
+[data-theme="dark"] .tab:focus {
+  background: #b3c6ff;
+  color: #232b3b;
+  box-shadow: 0 2px 8px rgba(179, 198, 255, 0.08);
 }
 
 .active {
-  background: #007a3d;
-  color: #fff;
+  background: #ffe066;
+  color: #23272e;
   font-weight: 700;
-  box-shadow: 0 4px 16px rgba(0, 122, 61, 0.1);
-  border-bottom: 2px solid #007a3d;
+  box-shadow: 0 4px 16px rgba(255, 224, 102, 0.1);
+  border-bottom: 2px solid #ffe066;
   z-index: 1;
+}
+
+[data-theme="dark"] .active {
+  background: #b3c6ff;
+  color: #232b3b;
+  border-bottom: 2px solid #b3c6ff;
+  box-shadow: 0 4px 16px rgba(179, 198, 255, 0.1);
 }

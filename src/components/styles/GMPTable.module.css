@@ -21,13 +21,16 @@ table.gmpTable {
 }
 
 [data-theme="dark"] table.gmpTable {
-  background: #23272e;
+  background: #181c20;
 }
 
+/* Table header: day (sun) and night (moon) accent */
 .gmpTable thead th {
+  background: #f9fafb;
+  border-left: 0.3vw solid #ffe066;
+  color: #23272e;
   position: sticky;
   top: 0;
-  background: #f9fafb;
   z-index: 2;
   padding: 1vw 0.8vw;
   text-align: left;
@@ -38,9 +41,20 @@ table.gmpTable {
 }
 
 [data-theme="dark"] .gmpTable thead th {
-  background: #23272e;
-  color: #e3e6eb;
-  border-bottom: 2px solid #333a44;
+  background: #232b3b;
+  border-left: 0.3vw solid #b3c6ff;
+  color: #b3c6ff;
+}
+
+/* Table header hover: use theme accent, not brown/yellow */
+.gmpTable thead th:hover {
+  background: #007a3d;
+  color: #fff;
+  transition: background 0.2s, color 0.2s;
+}
+[data-theme="dark"] .gmpTable thead th:hover {
+  background: #4b6fff;
+  color: #fff;
 }
 
 .gmpTable tbody td {
@@ -281,30 +295,39 @@ table.gmpTable {
   color: #b0b3b8 !important;
 }
 
-/* Fire row backgrounds: subtle, modern, single-color highlight per fire level */
+/* Day (fire/sun) and night (moon) row accent for fire rating */
 .fireRow1 {
+  border-left: 0.5vw solid #ffe066 !important;
   background: #fffbe6 !important;
   box-shadow: 0 2px 8px 0 rgba(255, 224, 102, 0.1);
+  animation: accent-bar-pop 0.5s cubic-bezier(0.4, 1.6, 0.6, 1);
 }
 [data-theme="dark"] .fireRow1 {
-  background: #3a2c13 !important;
-  box-shadow: 0 2px 8px 0 rgba(255, 209, 128, 0.1);
+  border-left: 0.5vw solid #b3c6ff !important; /* moonlight blue */
+  background: #232b3b !important; /* deep night blue */
+  box-shadow: 0 2px 8px 0 rgba(179, 198, 255, 0.1);
 }
 .fireRow2 {
+  border-left: 0.5vw solid #ffb74d !important;
   background: #ffe0b2 !important;
   box-shadow: 0 2px 12px 0 rgba(255, 168, 0, 0.12);
+  animation: accent-bar-pop 0.5s cubic-bezier(0.4, 1.6, 0.6, 1);
 }
 [data-theme="dark"] .fireRow2 {
-  background: #4b2e00 !important;
-  box-shadow: 0 2px 12px 0 rgba(255, 168, 0, 0.12);
+  border-left: 0.5vw solid #7faaff !important; /* moon accent */
+  background: #1a2233 !important;
+  box-shadow: 0 2px 12px 0 rgba(127, 170, 255, 0.12);
 }
 .fireRow3 {
+  border-left: 0.5vw solid #ff9800 !important;
   background: #ffd180 !important;
   box-shadow: 0 4px 16px 0 rgba(255, 152, 0, 0.16);
+  animation: accent-bar-pop 0.5s cubic-bezier(0.4, 1.6, 0.6, 1);
 }
 [data-theme="dark"] .fireRow3 {
-  background: #a65c00 !important;
-  box-shadow: 0 4px 16px 0 rgba(255, 152, 0, 0.16);
+  border-left: 0.5vw solid #4b6fff !important; /* deep moon */
+  background: #10182a !important;
+  box-shadow: 0 4px 16px 0 rgba(75, 111, 255, 0.16);
 }
 
 /* Table row hover and focus for interaction */
@@ -316,15 +339,41 @@ table.gmpTable {
   cursor: pointer;
 }
 
-/* Add a subtle highlight to table headers on hover */
-.gmpTable thead th:hover {
-  background: #ffe066;
-  color: #23272e;
-  transition: background 0.2s, color 0.2s;
+/* Remove :root from here, now in globals.css */
+/* Global theme accent variables */
+/*:root {
+  --accent-day: #ffe066;
+  --accent-day-strong: #007a3d;
+  --accent-night: #b3c6ff;
+  --accent-night-strong: #4b6fff;
+  --bg-day: #fffbe6;
+  --bg-night: #232b3b;
+}*/
+
+/* Use theme variables for tab group and buttons */
+.tabGroup {
+  background: var(--bg-day);
+  box-shadow: 0 2px 8px 0 var(--accent-day);
 }
-[data-theme="dark"] .gmpTable thead th:hover {
-  background: #4b2e00;
-  color: #ffd180;
+[data-theme="dark"] .tabGroup {
+  background: var(--bg-night);
+  box-shadow: 0 2px 8px 0 var(--accent-night);
+}
+.tabButton {
+  color: #23272e;
+}
+[data-theme="dark"] .tabButton {
+  color: var(--accent-night);
+}
+.tabButton.activeTab,
+.tabButton:focus {
+  background: var(--accent-day-strong);
+  color: #fff;
+}
+[data-theme="dark"] .tabButton.activeTab,
+[data-theme="dark"] .tabButton:focus {
+  background: var(--accent-night-strong);
+  color: #fff;
 }
 
 /* Add a fun animated underline to active tab (if used) */
@@ -364,7 +413,63 @@ table.gmpTable {
   text-shadow: 0 2px 8px #ff9800, 0 0px 2px #ffd180;
 }
 
-@media (max-width: 900px), (max-width: 600px) {
+/* Fire badge chip in fire column */
+.fireBadge {
+  display: inline-block;
+  min-width: 2vw;
+  padding: 0.1vw 0.6vw;
+  border-radius: 1vw;
+  background: #ff9800;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1vw;
+  margin-right: 0.5vw;
+  box-shadow: 0 1px 4px 0 rgba(255, 168, 0, 0.1);
+  vertical-align: middle;
+  animation: badge-pop 0.4s cubic-bezier(0.4, 1.6, 0.6, 1);
+}
+[data-theme="dark"] .fireBadge {
+  background: #b3c6ff;
+  color: #232b3b;
+}
+@keyframes badge-pop {
+  from {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* GMP % heatmap dot */
+.gmpHeatDot {
+  display: inline-block;
+  width: 0.7vw;
+  height: 0.7vw;
+  border-radius: 50%;
+  margin-right: 0.4vw;
+  vertical-align: middle;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.08);
+  animation: dot-pop 0.4s cubic-bezier(0.4, 1.6, 0.6, 1);
+}
+@keyframes dot-pop {
+  from {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 900px) {
+  .tableWrapper {
+    overflow-x: auto !important;
+    margin-bottom: 3vw !important;
+  }
   table.gmpTable,
   .gmpTable thead th,
   .gmpTable tbody td,
@@ -372,15 +477,53 @@ table.gmpTable {
   .gmpPositive,
   .gmpNegative,
   .gmpNeutral {
-    font-size: 1.1vw !important;
-    max-width: 12vw !important;
-    padding: 0.8vw 0.8vw !important;
-    border-radius: 0.5vw !important;
+    font-size: 2.6vw !important;
+    max-width: 32vw !important;
+    padding: 1.2vw 1.2vw !important;
+    border-radius: 1vw !important;
     white-space: nowrap !important;
     word-break: break-word !important;
     overflow-wrap: break-word !important;
   }
+  .fireBadge {
+    font-size: 2vw !important;
+    min-width: 3vw !important;
+    padding: 0.2vw 1vw !important;
+  }
+  .gmpHeatDot {
+    width: 1.2vw !important;
+    height: 1.2vw !important;
+    margin-right: 0.7vw !important;
+  }
+}
+@media (max-width: 600px) {
   .tableWrapper {
-    margin-bottom: 2vw !important;
+    overflow-x: auto !important;
+    margin-bottom: 4vw !important;
+  }
+  table.gmpTable,
+  .gmpTable thead th,
+  .gmpTable tbody td,
+  .wrapCell,
+  .gmpPositive,
+  .gmpNegative,
+  .gmpNeutral {
+    font-size: 3.8vw !important;
+    max-width: 48vw !important;
+    padding: 2vw 2vw !important;
+    border-radius: 2vw !important;
+    white-space: nowrap !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+  }
+  .fireBadge {
+    font-size: 3vw !important;
+    min-width: 5vw !important;
+    padding: 0.4vw 1.6vw !important;
+  }
+  .gmpHeatDot {
+    width: 2vw !important;
+    height: 2vw !important;
+    margin-right: 1vw !important;
   }
 }
