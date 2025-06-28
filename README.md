@@ -7,7 +7,20 @@ A modern, responsive dashboard for IPO Grey Market Premium (GMP) and performance
 - Tabbed interface for All GMP, Mainboard, SME, Current Market GMP, and IPO Performance
 - Data sourced and updated from investorgain.com
 - Modern, desktop-style table layout (forced for all screen sizes)
-- Color-coded GMP and performance values, fire rating, and date formatting
+- **Color-coded GMP and performance values** with a color scale for GMP %:
+
+| Level | GMP % Range | Hex Code  | Color Name           | Comment                     |
+| ----- | ----------- | --------- | -------------------- | --------------------------- |
+| 1     | ≤ -5%       | `#8B0000` | Dark Red             | Strongly negative sentiment |
+| 2     | -5% to 0%   | `#D73027` | Light Firebrick      | Mildly negative             |
+| 3     | 0% to 5%    | `#FDAE61` | Orange               | Flat / lukewarm             |
+| 4     | 5% to 15%   | `#FEE08B` | Light Yellow         | Mild interest               |
+| 5     | 15% to 25%  | `#D9EF8B` | Yellow-Green         | Decent interest             |
+| 6     | 25% to 35%  | `#91CF60` | Lime Green           | Good demand                 |
+| 7     | 35% to 45%  | `#1A9850` | Medium Green         | Strong demand               |
+| 8     | > 45%       | `#006837` | Deep Green (Tealish) | Very strong / hot demand    |
+
+- Fire rating, date formatting, and word wrapping
 - Fully responsive and mobile-friendly UI
 - Light and dark themes with floating toggle (system preference + persistence)
 - Static export for reliable GitHub Pages deployment (with subdirectory support)

@@ -127,6 +127,243 @@ table.gmpTable {
   max-width: 12vw;
 }
 
+.gmpLevel1 {
+  color: #fff;
+  background: #8b0000;
+  font-weight: 700;
+}
+
+.gmpLevel2 {
+  color: #fff;
+  background: #d73027;
+  font-weight: 700;
+}
+
+.gmpLevel3 {
+  color: #fff;
+  background: #fdae61;
+  font-weight: 700;
+}
+
+.gmpLevel4 {
+  color: #23272e;
+  background: #fee08b;
+  font-weight: 700;
+}
+
+.gmpLevel5 {
+  color: #23272e;
+  background: #d9ef8b;
+  font-weight: 700;
+}
+
+.gmpLevel6 {
+  color: #fff;
+  background: #91cf60;
+  font-weight: 700;
+}
+
+.gmpLevel7 {
+  color: #fff;
+  background: #1a9850;
+  font-weight: 700;
+}
+
+.gmpLevel8 {
+  color: #fff;
+  background: #006837;
+  font-weight: 700;
+}
+
+[data-theme="dark"] .gmpLevel1 {
+  background: #8b0000;
+  color: #fff;
+}
+
+[data-theme="dark"] .gmpLevel2 {
+  background: #d73027;
+  color: #fff;
+}
+
+[data-theme="dark"] .gmpLevel3 {
+  background: #fdae61;
+  color: #23272e;
+}
+
+[data-theme="dark"] .gmpLevel4 {
+  background: #fee08b;
+  color: #23272e;
+}
+
+[data-theme="dark"] .gmpLevel5 {
+  background: #d9ef8b;
+  color: #23272e;
+}
+
+[data-theme="dark"] .gmpLevel6 {
+  background: #91cf60;
+  color: #23272e;
+}
+
+[data-theme="dark"] .gmpLevel7 {
+  background: #1a9850;
+  color: #fff;
+}
+
+[data-theme="dark"] .gmpLevel8 {
+  background: #006837;
+  color: #fff;
+}
+
+/* Global text color scale for GMP % (light and dark theme variants) */
+.gmpTextLevel1 {
+  color: #8b0000 !important;
+  font-weight: 700;
+}
+.gmpTextLevel2 {
+  color: #d73027 !important;
+  font-weight: 700;
+}
+.gmpTextLevel3 {
+  color: #fdae61 !important;
+  font-weight: 700;
+}
+.gmpTextLevel4 {
+  color: #b8860b !important;
+  font-weight: 700;
+}
+.gmpTextLevel5 {
+  color: #6b8e23 !important;
+  font-weight: 700;
+}
+.gmpTextLevel6 {
+  color: #228b22 !important;
+  font-weight: 700;
+}
+.gmpTextLevel7 {
+  color: #1a9850 !important;
+  font-weight: 700;
+}
+.gmpTextLevel8 {
+  color: #006837 !important;
+  font-weight: 700;
+}
+.gmpTextNeutral {
+  color: #888 !important;
+  font-weight: 600;
+}
+
+[data-theme="dark"] .gmpTextLevel1 {
+  color: #ff6b81 !important;
+}
+[data-theme="dark"] .gmpTextLevel2 {
+  color: #ff8c8c !important;
+}
+[data-theme="dark"] .gmpTextLevel3 {
+  color: #ffd580 !important;
+}
+[data-theme="dark"] .gmpTextLevel4 {
+  color: #ffe066 !important;
+}
+[data-theme="dark"] .gmpTextLevel5 {
+  color: #d9ef8b !important;
+}
+[data-theme="dark"] .gmpTextLevel6 {
+  color: #91cf60 !important;
+}
+[data-theme="dark"] .gmpTextLevel7 {
+  color: #4be37a !important;
+}
+[data-theme="dark"] .gmpTextLevel8 {
+  color: #4be3b2 !important;
+}
+[data-theme="dark"] .gmpTextNeutral {
+  color: #b0b3b8 !important;
+}
+
+/* Fire row backgrounds: subtle, modern, single-color highlight per fire level */
+.fireRow1 {
+  background: #fffbe6 !important;
+  box-shadow: 0 2px 8px 0 rgba(255, 224, 102, 0.1);
+}
+[data-theme="dark"] .fireRow1 {
+  background: #3a2c13 !important;
+  box-shadow: 0 2px 8px 0 rgba(255, 209, 128, 0.1);
+}
+.fireRow2 {
+  background: #ffe0b2 !important;
+  box-shadow: 0 2px 12px 0 rgba(255, 168, 0, 0.12);
+}
+[data-theme="dark"] .fireRow2 {
+  background: #4b2e00 !important;
+  box-shadow: 0 2px 12px 0 rgba(255, 168, 0, 0.12);
+}
+.fireRow3 {
+  background: #ffd180 !important;
+  box-shadow: 0 4px 16px 0 rgba(255, 152, 0, 0.16);
+}
+[data-theme="dark"] .fireRow3 {
+  background: #a65c00 !important;
+  box-shadow: 0 4px 16px 0 rgba(255, 152, 0, 0.16);
+}
+
+/* Table row hover and focus for interaction */
+.gmpTable tbody tr:hover,
+.gmpTable tbody tr:focus-within {
+  filter: brightness(1.08) saturate(1.2);
+  box-shadow: 0 2px 12px 0 rgba(255, 168, 0, 0.08);
+  transition: filter 0.2s, box-shadow 0.2s;
+  cursor: pointer;
+}
+
+/* Add a subtle highlight to table headers on hover */
+.gmpTable thead th:hover {
+  background: #ffe066;
+  color: #23272e;
+  transition: background 0.2s, color 0.2s;
+}
+[data-theme="dark"] .gmpTable thead th:hover {
+  background: #4b2e00;
+  color: #ffd180;
+}
+
+/* Add a fun animated underline to active tab (if used) */
+.activeTab {
+  position: relative;
+  color: #ff9800 !important;
+}
+.activeTab::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -0.2vw;
+  height: 0.3vw;
+  background: linear-gradient(90deg, #ffd180, #ff9800);
+  border-radius: 1vw;
+  animation: tab-underline 0.7s cubic-bezier(0.4, 1.6, 0.6, 1) 1;
+}
+@keyframes tab-underline {
+  from {
+    width: 0;
+    opacity: 0;
+  }
+  to {
+    width: 100%;
+    opacity: 1;
+  }
+}
+
+/* Add a pop effect to GMP % on hover */
+.gmpTable td span[class^="gmpTextLevel"]:hover {
+  text-shadow: 0 2px 8px #ffd180, 0 0px 2px #ff9800;
+  transform: scale(1.08);
+  transition: text-shadow 0.2s, transform 0.2s;
+}
+[data-theme="dark"] .gmpTable td span[class^="gmpTextLevel"]:hover {
+  text-shadow: 0 2px 8px #ff9800, 0 0px 2px #ffd180;
+}
+
 @media (max-width: 900px), (max-width: 600px) {
   table.gmpTable,
   .gmpTable thead th,
