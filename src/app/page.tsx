@@ -8,11 +8,21 @@ import { gmpPages } from "../utils/gmpPages";
 
 const fetchGmpData = async (): Promise<GMPReport[]> => {
     try {
-        const res = await fetch("/reports/gmp.json");
-        if (!res.ok) return [];
+        // Use window.location.pathname to get the base path at runtime
+        let base = "";
+        if (typeof window !== "undefined") {
+            const match = window.location.pathname.match(/^(\/[^\/]+)?\//);
+            base = match && match[1] ? match[1] : "";
+        }
+        const res = await fetch(`${base}/reports/gmp.json`);
+        if (!res.ok) {
+            console.error("Failed to fetch gmp.json", res.status, res.statusText);
+            return [];
+        }
         const raw = await res.json();
         return parseGmpJson(raw);
-    } catch {
+    } catch (e) {
+        console.error("Error fetching gmp.json", e);
         return [];
     }
 };
