@@ -465,6 +465,139 @@ table.gmpTable {
   }
 }
 
+/* Date recency color classes */
+.dateToday {
+  color: var(--accent-day-strong);
+  font-weight: 700;
+}
+[data-theme="dark"] .dateTodayDark {
+  color: var(--accent-night-strong);
+  font-weight: 700;
+}
+.dateSoon {
+  color: #ff9800;
+}
+[data-theme="dark"] .dateSoonDark {
+  color: #ffd180;
+}
+.dateRecent {
+  color: #888;
+}
+[data-theme="dark"] .dateRecentDark {
+  color: #b0b3b8;
+}
+.dateFuture {
+  color: var(--accent-day);
+}
+[data-theme="dark"] .dateFutureDark {
+  color: var(--accent-night);
+}
+.datePast {
+  color: #bbb;
+}
+[data-theme="dark"] .datePastDark {
+  color: #444e5a;
+}
+
+/* Enhanced date cell styling */
+.dateEnhancedCell {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.1em;
+  line-height: 1.2;
+  padding: 0.1vw 0;
+}
+
+.dateMain {
+  font-size: 1.12em;
+  font-weight: 700;
+  color: var(--accent-day-strong);
+  letter-spacing: 0.01em;
+}
+[data-theme="dark"] .dateMain {
+  color: var(--accent-night-strong);
+}
+
+.dateWeekday {
+  font-size: 1.08em;
+  font-weight: 600;
+  color: var(--accent-day);
+  margin-top: 0.05em;
+}
+[data-theme="dark"] .dateWeekday {
+  color: var(--accent-night);
+}
+
+.dateRelative {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 700;
+  color: #ff9800;
+  opacity: 1;
+  margin-top: 0.02em;
+  margin-left: 0.1em;
+  letter-spacing: 0.01em;
+}
+[data-theme="dark"] .dateRelative {
+  color: #ffd180;
+}
+
+/* Name badge styles for U/C/O suffixes */
+.nameWithBadge {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.nameBadge_upcoming {
+  background: #1976d2;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.95em;
+  border-radius: 0.5em;
+  padding: 0.1em 0.6em;
+  margin-left: 0.3em;
+  letter-spacing: 0.02em;
+  box-shadow: 0 1px 4px 0 #1976d233;
+}
+[data-theme="dark"] .nameBadge_upcoming {
+  background: #90caf9;
+  color: #0d223a;
+}
+
+.nameBadge_open {
+  background: #43a047;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.95em;
+  border-radius: 0.5em;
+  padding: 0.1em 0.6em;
+  margin-left: 0.3em;
+  letter-spacing: 0.02em;
+  box-shadow: 0 1px 4px 0 #43a04733;
+}
+[data-theme="dark"] .nameBadge_open {
+  background: #a5d6a7;
+  color: #0d2a1a;
+}
+
+.nameBadge_close {
+  background: #ff9800;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.95em;
+  border-radius: 0.5em;
+  padding: 0.1em 0.6em;
+  margin-left: 0.3em;
+  letter-spacing: 0.02em;
+  box-shadow: 0 1px 4px 0 #ff980033;
+}
+[data-theme="dark"] .nameBadge_close {
+  background: #ffd180;
+  color: #4a2a00;
+}
+
 @media (max-width: 900px) {
   .tableWrapper {
     overflow-x: auto !important;
