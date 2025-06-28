@@ -27,7 +27,7 @@ This project uses static export and can be deployed to GitHub Pages.
    ```json
    "repository": {
      "type": "git",
-     "url": "https://github.com/<your-username>/ipo-gmp.git"
+     "url": "https://github.com/ainstarc/ipo-gmp.git"
    }
    ```
 3. Deploy:
@@ -35,7 +35,7 @@ This project uses static export and can be deployed to GitHub Pages.
    npm run deploy
    ```
 
-The site will be available at `https://<your-username>.github.io/ipo-gmp/`.
+The site will be available at `https://ainstarc.github.io/ipo-gmp/`.
 
 ---
 
