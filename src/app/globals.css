@@ -3,6 +3,12 @@ body {
   background: #f5f6fa;
   color: #222;
   margin: 0;
+  transition: background 0.2s, color 0.2s;
+}
+
+[data-theme="dark"] body {
+  background: #181c20;
+  color: #e3e6eb;
 }
 
 h1 {
@@ -12,6 +18,11 @@ h1 {
   letter-spacing: -0.02em;
   text-align: center;
   color: #1a2a36;
+  transition: color 0.2s;
+}
+
+[data-theme="dark"] h1 {
+  color: #e3e6eb;
 }
 
 main {
@@ -22,6 +33,12 @@ main {
   background: #fff;
   border-radius: 1vw;
   min-height: 80vh;
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+[data-theme="dark"] main {
+  background: #23272e;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.2);
 }
 
 .noDataMsg {
@@ -29,6 +46,11 @@ main {
   margin-top: 3vw;
   text-align: center;
   font-size: 1.2vw;
+  transition: color 0.2s;
+}
+
+[data-theme="dark"] .noDataMsg {
+  color: #b0b3b8;
 }
 
 footer {
@@ -38,6 +60,12 @@ footer {
   color: #888;
   font-size: 1vw;
   text-align: center;
+  transition: color 0.2s, border-top 0.2s;
+}
+
+[data-theme="dark"] footer {
+  color: #b0b3b8;
+  border-top: 1px solid #333a44;
 }
 
 @media (max-width: 600px) {

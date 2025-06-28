@@ -2,6 +2,11 @@
   width: 100%;
   margin-bottom: 2vw;
   overflow-x: auto;
+  transition: background 0.2s;
+}
+
+[data-theme="dark"] .tableWrapper {
+  background: #23272e;
 }
 
 table.gmpTable {
@@ -12,6 +17,11 @@ table.gmpTable {
   font-size: 1.1vw;
   table-layout: auto;
   word-break: break-word;
+  transition: background 0.2s;
+}
+
+[data-theme="dark"] table.gmpTable {
+  background: #23272e;
 }
 
 .gmpTable thead th {
@@ -24,6 +34,13 @@ table.gmpTable {
   border-bottom: 2px solid #e5e7eb;
   font-size: 1.2vw;
   white-space: nowrap;
+  transition: background 0.2s, color 0.2s;
+}
+
+[data-theme="dark"] .gmpTable thead th {
+  background: #23272e;
+  color: #e3e6eb;
+  border-bottom: 2px solid #333a44;
 }
 
 .gmpTable tbody td {
@@ -33,14 +50,30 @@ table.gmpTable {
   text-overflow: ellipsis;
   white-space: nowrap;
   max-width: 12vw;
+  transition: background 0.2s, color 0.2s;
+}
+
+[data-theme="dark"] .gmpTable tbody td {
+  border-bottom: 1px solid #333a44;
+  color: #e3e6eb;
 }
 
 .evenRow {
   background: #f7f7fa;
+  transition: background 0.2s;
+}
+
+[data-theme="dark"] .evenRow {
+  background: #23272e;
 }
 
 .oddRow {
   background: #fff;
+  transition: background 0.2s;
+}
+
+[data-theme="dark"] .oddRow {
+  background: #181c20;
 }
 
 .gmpPositive {
@@ -50,6 +83,12 @@ table.gmpTable {
   border-radius: 0.5vw;
   padding: 0.2vw 0.6vw;
   display: inline-block;
+  transition: background 0.2s, color 0.2s;
+}
+
+[data-theme="dark"] .gmpPositive {
+  color: #4be37a;
+  background: #1e2e23;
 }
 
 .gmpNegative {
@@ -59,6 +98,12 @@ table.gmpTable {
   border-radius: 0.5vw;
   padding: 0.2vw 0.6vw;
   display: inline-block;
+  transition: background 0.2s, color 0.2s;
+}
+
+[data-theme="dark"] .gmpNegative {
+  color: #ff6b81;
+  background: #2a1e23;
 }
 
 .gmpNeutral {
@@ -67,6 +112,12 @@ table.gmpTable {
   border-radius: 0.5vw;
   padding: 0.2vw 0.6vw;
   display: inline-block;
+  transition: background 0.2s, color 0.2s;
+}
+
+[data-theme="dark"] .gmpNeutral {
+  color: #b0b3b8;
+  background: #23272e;
 }
 
 .wrapCell {
@@ -76,27 +127,23 @@ table.gmpTable {
   max-width: 12vw;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 900px), (max-width: 600px) {
   table.gmpTable,
   .gmpTable thead th,
-  .gmpTable tbody td {
-    font-size: 2.5vw;
-    max-width: 30vw;
+  .gmpTable tbody td,
+  .wrapCell,
+  .gmpPositive,
+  .gmpNegative,
+  .gmpNeutral {
+    font-size: 1.1vw !important;
+    max-width: 12vw !important;
+    padding: 0.8vw 0.8vw !important;
+    border-radius: 0.5vw !important;
+    white-space: nowrap !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
   }
-  .wrapCell {
-    max-width: 30vw;
-  }
-}
-
-@media (max-width: 600px) {
-  table.gmpTable,
-  .gmpTable thead th,
-  .gmpTable tbody td {
-    font-size: 3vw;
-    padding: 2vw 1vw;
-    max-width: 40vw;
-  }
-  .wrapCell {
-    max-width: 40vw;
+  .tableWrapper {
+    margin-bottom: 2vw !important;
   }
 }
