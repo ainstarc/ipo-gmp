@@ -11,32 +11,38 @@ export interface GMPReport {
  */
 export function parseGmpJson(raw: Record<string, unknown>): GMPReport[] {
   const reports: GMPReport[] = [];
-  if (raw && Array.isArray((raw as any).allGMP)) {
-    reports.push({ title: "All GMP", data: (raw as any).allGMP });
+
+  function getArray<T = Record<string, string>>(
+    obj: Record<string, unknown>,
+    key: string
+  ): T[] | undefined {
+    const arr = obj[key];
+    return Array.isArray(arr) ? (arr as T[]) : undefined;
   }
-  if (raw && Array.isArray((raw as any).currentGMP)) {
-    reports.push({
-      title: "Current Market GMP",
-      data: (raw as any).currentGMP,
-    });
-  }
-  if (raw && Array.isArray((raw as any).mainboardGMP)) {
-    reports.push({ title: "Mainboard GMP", data: (raw as any).mainboardGMP });
-  }
-  if (raw && Array.isArray((raw as any).smeGMP)) {
-    reports.push({ title: "SME GMP", data: (raw as any).smeGMP });
-  }
-  if (raw && Array.isArray((raw as any).allPerf)) {
-    reports.push({ title: "All IPO Performance", data: (raw as any).allPerf });
-  }
-  if (raw && Array.isArray((raw as any).mainlinePerf)) {
-    reports.push({
-      title: "Mainline IPO Performance",
-      data: (raw as any).mainlinePerf,
-    });
-  }
-  if (raw && Array.isArray((raw as any).smePerf)) {
-    reports.push({ title: "SME IPO Performance", data: (raw as any).smePerf });
-  }
+
+  const allGMP = getArray(raw, "allGMP");
+  if (allGMP) reports.push({ title: "All GMP", data: allGMP });
+
+  const currentGMP = getArray(raw, "currentGMP");
+  if (currentGMP)
+    reports.push({ title: "Current Market GMP", data: currentGMP });
+
+  const mainboardGMP = getArray(raw, "mainboardGMP");
+  if (mainboardGMP)
+    reports.push({ title: "Mainboard GMP", data: mainboardGMP });
+
+  const smeGMP = getArray(raw, "smeGMP");
+  if (smeGMP) reports.push({ title: "SME GMP", data: smeGMP });
+
+  const allPerf = getArray(raw, "allPerf");
+  if (allPerf) reports.push({ title: "All IPO Performance", data: allPerf });
+
+  const mainlinePerf = getArray(raw, "mainlinePerf");
+  if (mainlinePerf)
+    reports.push({ title: "Mainline IPO Performance", data: mainlinePerf });
+
+  const smePerf = getArray(raw, "smePerf");
+  if (smePerf) reports.push({ title: "SME IPO Performance", data: smePerf });
+
   return reports;
 }
