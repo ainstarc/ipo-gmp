@@ -1,0 +1,48 @@
+.tableWrapper {
+  overflow-x: auto;
+  margin-bottom: 2rem;
+}
+
+table.gmpTable {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  font-size: 1rem;
+}
+
+.gmpTable thead th {
+  position: sticky;
+  top: 0;
+  background: #f9fafb;
+  z-index: 2;
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.gmpTable tbody td {
+  padding: 0.65rem 1rem;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.evenRow {
+  background: #f7f7fa;
+}
+
+.oddRow {
+  background: #fff;
+}
+
+.gmpPositive {
+  color: #0a7d2c;
+  font-weight: 600;
+}
+
+.gmpNegative {
+  color: #c1121f;
+  font-weight: 600;
+}
+
+.gmpNeutral {
+  color: #888;
+}
