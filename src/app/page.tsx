@@ -64,8 +64,8 @@ export default function HomePage() {
     const headers = current?.data?.length ? Object.keys(current.data[0]) : [];
 
     return (
-        <main style={{ maxWidth: 900, margin: "0 auto", padding: 24 }}>
-            <h1 style={{ marginBottom: 24 }}>IPO GMP Dashboard</h1>
+        <main>
+            <h1>IPO GMP Dashboard</h1>
             <TabGroup
                 tabs={reports.map((r) => r.title)}
                 activeTab={activeTab}
@@ -74,11 +74,11 @@ export default function HomePage() {
             {current && headers.length ? (
                 <GMPTable headers={headers} rows={current.data} />
             ) : (
-                <div style={{ color: "#888", marginTop: 32 }}>
+                <div className="noDataMsg">
                     No data available for this tab.
                 </div>
             )}
-            <footer style={{ textAlign: "center", color: "#888", marginTop: 40, fontSize: 14 }}>
+            <footer>
                 Data scraped from {sourceUrl ? (
                     <a href={sourceUrl} target="_blank" rel="noopener noreferrer">{sourceUrl.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a>
                 ) : (

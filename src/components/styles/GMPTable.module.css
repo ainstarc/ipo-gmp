@@ -1,13 +1,17 @@
 .tableWrapper {
+  width: 100%;
+  margin-bottom: 2vw;
   overflow-x: auto;
-  margin-bottom: 2rem;
 }
 
 table.gmpTable {
   width: 100%;
+  max-width: 100%;
   border-collapse: collapse;
   background: #fff;
-  font-size: 1rem;
+  font-size: 1.1vw;
+  table-layout: auto;
+  word-break: break-word;
 }
 
 .gmpTable thead th {
@@ -15,14 +19,20 @@ table.gmpTable {
   top: 0;
   background: #f9fafb;
   z-index: 2;
-  padding: 0.75rem 1rem;
+  padding: 1vw 0.8vw;
   text-align: left;
   border-bottom: 2px solid #e5e7eb;
+  font-size: 1.2vw;
+  white-space: nowrap;
 }
 
 .gmpTable tbody td {
-  padding: 0.65rem 1rem;
+  padding: 0.8vw 0.8vw;
   border-bottom: 1px solid #f1f1f1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 12vw;
 }
 
 .evenRow {
@@ -36,13 +46,57 @@ table.gmpTable {
 .gmpPositive {
   color: #0a7d2c;
   font-weight: 600;
+  background: #e6f9ed;
+  border-radius: 0.5vw;
+  padding: 0.2vw 0.6vw;
+  display: inline-block;
 }
 
 .gmpNegative {
   color: #c1121f;
   font-weight: 600;
+  background: #fde8ea;
+  border-radius: 0.5vw;
+  padding: 0.2vw 0.6vw;
+  display: inline-block;
 }
 
 .gmpNeutral {
   color: #888;
+  background: #f3f3f3;
+  border-radius: 0.5vw;
+  padding: 0.2vw 0.6vw;
+  display: inline-block;
+}
+
+.wrapCell {
+  white-space: normal !important;
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+  max-width: 12vw;
+}
+
+@media (max-width: 900px) {
+  table.gmpTable,
+  .gmpTable thead th,
+  .gmpTable tbody td {
+    font-size: 2.5vw;
+    max-width: 30vw;
+  }
+  .wrapCell {
+    max-width: 30vw;
+  }
+}
+
+@media (max-width: 600px) {
+  table.gmpTable,
+  .gmpTable thead th,
+  .gmpTable tbody td {
+    font-size: 3vw;
+    padding: 2vw 1vw;
+    max-width: 40vw;
+  }
+  .wrapCell {
+    max-width: 40vw;
+  }
 }
