@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import TabGroup from "../components/TabGroup";
 import GMPTable from "../components/GMPTable";
 import { parseGmpJson, GMPReport } from "../utils/parseGmpJson";
+import { gmpPages } from "../utils/gmpPages";
 
 const fetchGmpData = async (): Promise<GMPReport[]> => {
     try {
@@ -28,6 +29,18 @@ export default function HomePage() {
             setLoading(false);
         });
     }, []);
+
+    const tabKeyMap: Record<string, string> = {
+        "All GMP": "allGMP",
+        "Current Market GMP": "currentGMP",
+        "Mainboard GMP": "mainboardGMP",
+        "SME GMP": "smeGMP",
+        "All IPO Performance": "allPerf",
+        "Mainline IPO Performance": "mainlinePerf",
+        "SME IPO Performance": "smePerf",
+    };
+    const currentKey = tabKeyMap[activeTab];
+    const sourceUrl = currentKey ? gmpPages[currentKey] : undefined;
 
     if (loading) return <div style={{ padding: 32 }}>Loading...</div>;
     if (!reports.length)
@@ -55,6 +68,13 @@ export default function HomePage() {
                     No data available for this tab.
                 </div>
             )}
+            <footer style={{ textAlign: "center", color: "#888", marginTop: 40, fontSize: 14 }}>
+                Data scraped from {sourceUrl ? (
+                    <a href={sourceUrl} target="_blank" rel="noopener noreferrer">{sourceUrl.replace(/^https?:\/\//, '').replace(/\/$/, '')}</a>
+                ) : (
+                    <span>investorgain.com</span>
+                )}
+            </footer>
         </main>
     );
 }
