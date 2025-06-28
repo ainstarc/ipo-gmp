@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styles from "./styles/GMPTable.module.css";
 
 interface GMPTableProps {
@@ -36,9 +36,7 @@ function renderFire(val: string) {
     if (!val) return "—";
     // Count fire emojis
     const count = (val.match(/🔥/g) || []).length;
-    const isDark = typeof document !== "undefined" && document.documentElement.getAttribute("data-theme") === "dark";
-    const icon = isDark ? "🌙" : "🔥";
-    if (count > 0) return <span className={styles.fireBadge}>{count} {icon}</span>;
+    if (count > 0) return <span className={styles.fireBadge}>{count} 🔥</span>;
     return val;
 }
 
@@ -229,21 +227,81 @@ function renderNameCell(val: string) {
     );
 }
 
+const COMPACT_COLUMNS = [
+    // Show only these columns in compact mode (case-insensitive match)
+    "Name", "GMP", "Fire Rating", "Open", "Close", "Listing"
+];
+const HIGHLY_COMPACT_COLUMNS = [
+    // Show only these columns in highly compact mode (case-insensitive match)
+    "Name", "GMP", "Close", "Listing"
+];
+
 const GMPTable: React.FC<GMPTableProps> = ({ headers, rows }) => {
     // Remove trailing empty columns (headers with empty string or only whitespace)
     const cleanHeaders = headers.filter(h => h.trim() !== "");
     // Detect if this is a GMP tab (not a performance tab)
     const isGmpTab = cleanHeaders.some(h => h.toLowerCase().includes("gmp"));
+
+    // Compact/expanded view toggle (only for GMP tabs)
+    const [viewMode, setViewMode] = useState<'expanded' | 'compact' | 'highly_compact'>('expanded');
+    let visibleHeaders = cleanHeaders;
+    if (isGmpTab) {
+        if (viewMode === 'compact') {
+            visibleHeaders = cleanHeaders.filter(h => COMPACT_COLUMNS.some(c => h.toLowerCase().includes(c.toLowerCase())));
+        } else if (viewMode === 'highly_compact') {
+            visibleHeaders = cleanHeaders.filter(h => HIGHLY_COMPACT_COLUMNS.some(c => h.toLowerCase().includes(c.toLowerCase())));
+        }
+    }
+
     return (
         <div className={styles.tableWrapper}>
-            <table className={styles.gmpTable}>
+            {isGmpTab && (
+                <div className={styles.toggleBar}>
+                    <button
+                        className={viewMode === 'expanded' ? styles.toggleBtnActive : styles.toggleBtn}
+                        onClick={() => setViewMode('expanded')}
+                        aria-pressed={viewMode === 'expanded'}
+                    >
+                        Expanded
+                    </button>
+                    <button
+                        className={viewMode === 'compact' ? styles.toggleBtnActive : styles.toggleBtn}
+                        onClick={() => setViewMode('compact')}
+                        aria-pressed={viewMode === 'compact'}
+                    >
+                        Compact
+                    </button>
+                    <button
+                        className={viewMode === 'highly_compact' ? styles.toggleBtnActive : styles.toggleBtn}
+                        onClick={() => setViewMode('highly_compact')}
+                        aria-pressed={viewMode === 'highly_compact'}
+                    >
+                        Highly Compact
+                    </button>
+                </div>
+            )}
+            <table
+                className={
+                    styles.gmpTable +
+                    (isGmpTab && viewMode !== 'expanded' ? ' ' + styles.compactTable : '') +
+                    (isGmpTab && viewMode === 'highly_compact' ? ' ' + styles.highlyCompactTable : '')
+                }
+            >
                 <thead>
                     <tr>
-                        {cleanHeaders.map((header) => (
-                            <th key={header} className={styles.wrapCell}>
-                                {header.replace(/▲▼/, "").replace(/_/g, " ").trim()}
-                            </th>
-                        ))}
+                        {visibleHeaders.map((header) => {
+                            // Add per-column class for compact modes
+                            let thClass = styles.wrapCell;
+                            if (isGmpTab && viewMode !== 'expanded') {
+                                const colKey = header.toLowerCase().replace(/\s+/g, '-');
+                                thClass += ' ' + styles['col_' + colKey];
+                            }
+                            return (
+                                <th key={header} className={thClass}>
+                                    {header.replace(/▲▼/, "").replace(/_/g, " ").trim()}
+                                </th>
+                            );
+                        })}
                     </tr>
                 </thead>
                 <tbody>
@@ -252,19 +310,25 @@ const GMPTable: React.FC<GMPTableProps> = ({ headers, rows }) => {
                         const fireClass = getFireRowClass(fireCount);
                         return (
                             <tr key={i} className={`${i % 2 === 0 ? styles.evenRow : styles.oddRow} ${fireClass}`}>
-                                {cleanHeaders.map((header) => {
+                                {visibleHeaders.map((header) => {
                                     const val = row[header];
-                                    if (/fire/i.test(header)) return <td key={header} className={styles.wrapCell}>{renderFire(val)}</td>;
-                                    if (/gmp/i.test(header) || (/%/.test(val || "") && !/name/i.test(header))) return <td key={header} className={styles.wrapCell}>{renderGmpValue(val)}</td>;
+                                    // Add per-column class for compact modes
+                                    let tdClass = styles.wrapCell;
+                                    if (isGmpTab && viewMode !== 'expanded') {
+                                        const colKey = header.toLowerCase().replace(/\s+/g, '-');
+                                        tdClass += ' ' + styles['col_' + colKey];
+                                    }
+                                    if (/fire/i.test(header)) return <td key={header} className={tdClass}>{renderFire(val)}</td>;
+                                    if (/gmp/i.test(header) || (/%/.test(val || "") && !/name/i.test(header))) return <td key={header} className={tdClass}>{renderGmpValue(val)}</td>;
                                     if (
                                         isGmpTab && DATE_COLUMNS.some(col => header.toLowerCase().includes(col.toLowerCase())) && val
                                     ) {
-                                        return <td key={header} className={styles.wrapCell}>{renderDate(val)}</td>;
+                                        return <td key={header} className={tdClass}>{renderDate(val)}</td>;
                                     }
-                                    if (/date/i.test(header) && val) return <td key={header} className={styles.wrapCell}>{val}</td>;
-                                    if (/^name$/i.test(header)) return <td key={header} className={styles.wrapCell}>{renderNameCell(val)}</td>;
-                                    if (!val || val === "") return <td key={header} className={styles.wrapCell}>—</td>;
-                                    return <td key={header} className={styles.wrapCell}>{val}</td>;
+                                    if (/date/i.test(header) && val) return <td key={header} className={tdClass}>{val}</td>;
+                                    if (header.toLowerCase().includes("name")) return <td key={header} className={tdClass}>{renderNameCell(val)}</td>;
+                                    if (!val || val === "") return <td key={header} className={tdClass}>—</td>;
+                                    return <td key={header} className={tdClass}>{val}</td>;
                                 })}
                             </tr>
                         );
