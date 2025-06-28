@@ -1,12 +1,16 @@
 # IPO GMP Dashboard
 
-A Next.js static dashboard for IPO Grey Market Premium (GMP) and performance data, scraped from [investorgain.com](https://www.investorgain.com/report/live-ipo-gmp/331/all/).
+A modern, responsive dashboard for IPO Grey Market Premium (GMP) and performance data, built with Next.js and deployed as a static site to GitHub Pages. Data is sourced from [investorgain.com](https://www.investorgain.com/report/live-ipo-gmp/331/all/).
 
 ## Features
 
 - Tabbed interface for All GMP, Mainboard, SME, Current Market GMP, and IPO Performance
 - Data sourced and updated from investorgain.com
-- Responsive, modern UI
+- Modern, desktop-style table layout (forced for all screen sizes)
+- Color-coded GMP and performance values, fire rating, and date formatting
+- Fully responsive and mobile-friendly UI
+- Light and dark themes with floating toggle (system preference + persistence)
+- Static export for reliable GitHub Pages deployment (with subdirectory support)
 
 ## Development
 
@@ -50,3 +54,9 @@ The site will be available at `https://ainstarc.github.io/ipo-gmp/`.
 - [SME IPO Performance](https://www.investorgain.com/report/ipo-gmp-performance-tracker/377/sme/)
 
 Data is scraped and updated from the above sources.
+
+---
+
+## License
+
+This project is licensed under the [MIT License](./LICENSE).
