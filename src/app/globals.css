@@ -37,11 +37,15 @@ body {
 }
 
 body {
-  font-family: var(--font-geist-sans, Arial, sans-serif);
+  font-family: "Montserrat", "Geist", "Arial", sans-serif;
+  font-size: 1.08vw;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #23272e;
+  text-transform: uppercase;
   background: var(--bg-gradient-day);
   background-size: 400% 400%;
   animation: bgGradientDay 18s ease-in-out infinite;
-  color: #222;
   margin: 0;
   transition: background 0.6s, color 0.2s;
   /* Subtle blur for body background */
@@ -62,10 +66,10 @@ body {
 }
 
 [data-theme="dark"] body {
+  color: #e3e6eb;
   background: var(--bg-gradient-night);
   background-size: 400% 400%;
   animation: bgGradientNight 18s ease-in-out infinite;
-  color: #e3e6eb;
   /* Subtle blur for dark mode */
   backdrop-filter: blur(8px) saturate(1.08);
   -webkit-backdrop-filter: blur(8px) saturate(1.08);
@@ -83,18 +87,24 @@ body {
   }
 }
 
-h1 {
-  font-size: 2.5vw;
-  font-weight: 700;
+h1,
+.main-title {
+  font-family: "Montserrat", "Geist", "Arial Black", Arial, sans-serif;
+  font-size: 2.7vw;
+  font-weight: 900;
   margin-bottom: 2vw;
-  letter-spacing: -0.02em;
+  letter-spacing: 0.08em;
   text-align: center;
-  color: #1a2a36;
+  color: #1a2233;
+  text-transform: uppercase;
   transition: color 0.2s;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.07);
 }
 
-[data-theme="dark"] h1 {
-  color: #e3e6eb;
+[data-theme="dark"] h1,
+[data-theme="dark"] .main-title {
+  color: #b3c6ff;
+  text-shadow: 0 2px 8px #0a0f1a;
 }
 
 main {

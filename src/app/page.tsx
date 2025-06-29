@@ -65,7 +65,7 @@ export default function HomePage() {
 
     return (
         <main>
-            <h1>IPO GMP Dashboard</h1>
+            <h1 className="main-title">INDIA IPO GREY MARKET DASHBOARD</h1>
             <TabGroup
                 tabs={reports.map((r) => r.title)}
                 activeTab={activeTab}
