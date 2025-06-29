@@ -4,25 +4,83 @@
   --accent-night: #b3c6ff;
   --accent-night-strong: #4b6fff;
   --bg-day: #fffbe6;
-  --bg-night: #232b3b;
+  --bg-night: #141a26; /* much darker blue for dark mode */
+  --bg-gradient-day: linear-gradient(
+    120deg,
+    #fffbe6 0%,
+    #ffe066 50%,
+    #e0f7fa 100%
+  );
+  --bg-gradient-night: linear-gradient(
+    120deg,
+    #141a26 0%,
+    #1a2233 40%,
+    #232b3b 70%,
+    #0a0f1a 100%
+  );
 }
 
-:root,
-[data-theme="dark"] {
-  transition: background 0.3s, color 0.3s;
+html {
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  /* Subtle blur for background */
+  backdrop-filter: blur(6px) saturate(1.05);
+  -webkit-backdrop-filter: blur(6px) saturate(1.05);
+}
+
+html,
+body {
+  min-height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 body {
   font-family: var(--font-geist-sans, Arial, sans-serif);
-  background: #f5f6fa;
+  background: var(--bg-gradient-day);
+  background-size: 400% 400%;
+  animation: bgGradientDay 18s ease-in-out infinite;
   color: #222;
   margin: 0;
-  transition: background 0.2s, color 0.2s;
+  transition: background 0.6s, color 0.2s;
+  /* Subtle blur for body background */
+  backdrop-filter: blur(8px) saturate(1.08);
+  -webkit-backdrop-filter: blur(8px) saturate(1.08);
+}
+
+@keyframes bgGradientDay {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 [data-theme="dark"] body {
-  background: #181c20;
+  background: var(--bg-gradient-night);
+  background-size: 400% 400%;
+  animation: bgGradientNight 18s ease-in-out infinite;
   color: #e3e6eb;
+  /* Subtle blur for dark mode */
+  backdrop-filter: blur(8px) saturate(1.08);
+  -webkit-backdrop-filter: blur(8px) saturate(1.08);
+}
+
+@keyframes bgGradientNight {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 h1 {
@@ -44,15 +102,51 @@ main {
   margin: 3vw auto 0 auto;
   padding: 2vw;
   box-shadow: 0 2px 16px rgba(0, 0, 0, 0.04);
-  background: #fff;
+  background: rgba(255, 255, 255, 0.85);
   border-radius: 1vw;
   min-height: 80vh;
-  transition: background 0.2s, box-shadow 0.2s;
+  transition: background 0.6s, box-shadow 0.2s;
+  backdrop-filter: blur(10px) saturate(1.12);
+  -webkit-backdrop-filter: blur(10px) saturate(1.12);
+  /* Add a subtle SVG check pattern overlay */
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+main::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.1;
+  /* Chessboard pattern SVG */
+  background-image: url('data:image/svg+xml;utf8,<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="16" height="16" fill="%23b3c6ff"/><rect x="16" y="16" width="16" height="16" fill="%23b3c6ff"/><rect x="16" width="16" height="16" fill="%23fffbe6"/><rect y="16" width="16" height="16" fill="%23fffbe6"/></svg>');
+  background-repeat: repeat;
+  background-size: 48px 48px;
+}
+[data-theme="dark"] main {
+  background: rgba(20, 26, 38, 0.92); /* match new dark blue */
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(2px) saturate(1.1);
+}
+[data-theme="dark"] main::before {
+  background-image: url('data:image/svg+xml;utf8,<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="16" height="16" fill="%234b6fff"/><rect x="16" y="16" width="16" height="16" fill="%234b6fff"/><rect x="16" width="16" height="16" fill="%23232b3b"/><rect y="16" width="16" height="16" fill="%23232b3b"/></svg>');
+  opacity: 0.08;
 }
 
-[data-theme="dark"] main {
-  background: #23272e;
-  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.2);
+main::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.08);
+}
+
+main > * {
+  position: relative;
+  z-index: 1;
 }
 
 .noDataMsg {

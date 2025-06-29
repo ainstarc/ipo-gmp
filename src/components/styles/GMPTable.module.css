@@ -162,22 +162,46 @@ table.gmpTable {
 
 .gmpLevel1 {
   color: #fff;
-  background: #8b0000;
+  background: linear-gradient(90deg, #8b0000 0%, #d73027 100%);
   font-weight: 700;
+  animation: gmpPulse1 4s infinite alternate;
 }
-
+@keyframes gmpPulse1 {
+  0% {
+    filter: brightness(1);
+  }
+  100% {
+    filter: brightness(1.15);
+  }
+}
 .gmpLevel2 {
   color: #fff;
-  background: #d73027;
+  background: linear-gradient(90deg, #d73027 0%, #fdae61 100%);
   font-weight: 700;
+  animation: gmpPulse2 4s infinite alternate;
 }
-
+@keyframes gmpPulse2 {
+  0% {
+    filter: brightness(1);
+  }
+  100% {
+    filter: brightness(1.12);
+  }
+}
 .gmpLevel3 {
   color: #fff;
-  background: #fdae61;
+  background: linear-gradient(90deg, #fdae61 0%, #fee08b 100%);
   font-weight: 700;
+  animation: gmpPulse3 4s infinite alternate;
 }
-
+@keyframes gmpPulse3 {
+  0% {
+    filter: brightness(1);
+  }
+  100% {
+    filter: brightness(1.1);
+  }
+}
 .gmpLevel4 {
   color: #23272e;
   background: #fee08b;
@@ -317,36 +341,95 @@ table.gmpTable {
 /* Day (fire/sun) and night (moon) row accent for fire rating */
 .fireRow1 {
   border-left: 0.5vw solid #ffe066 !important;
-  background: #fffbe6 !important;
+  background: linear-gradient(90deg, #fffbe6 0%, #ffe066 100%);
   box-shadow: 0 2px 8px 0 rgba(255, 224, 102, 0.1);
-  animation: accent-bar-pop 0.5s cubic-bezier(0.4, 1.6, 0.6, 1);
+  animation: accent-bar-pop 0.5s cubic-bezier(0.4, 1.6, 0.6, 1),
+    fireRowPulse1 3s infinite alternate;
 }
 [data-theme="dark"] .fireRow1 {
-  border-left: 0.5vw solid #b3c6ff !important; /* moonlight blue */
-  background: #232b3b !important; /* deep night blue */
+  border-left: 0.5vw solid #b3c6ff !important;
+  background: linear-gradient(90deg, #232b3b 0%, #b3c6ff 100%);
   box-shadow: 0 2px 8px 0 rgba(179, 198, 255, 0.1);
+  animation: accent-bar-pop 0.5s cubic-bezier(0.4, 1.6, 0.6, 1),
+    fireRowPulse1Dark 3s infinite alternate;
 }
+@keyframes fireRowPulse1 {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+@keyframes fireRowPulse1Dark {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
 .fireRow2 {
   border-left: 0.5vw solid #ffb74d !important;
-  background: #ffe0b2 !important;
+  background: linear-gradient(90deg, #ffe0b2 0%, #ffb74d 100%);
   box-shadow: 0 2px 12px 0 rgba(255, 168, 0, 0.12);
-  animation: accent-bar-pop 0.5s cubic-bezier(0.4, 1.6, 0.6, 1);
+  animation: accent-bar-pop 0.5s cubic-bezier(0.4, 1.6, 0.6, 1),
+    fireRowPulse2 3s infinite alternate;
 }
 [data-theme="dark"] .fireRow2 {
-  border-left: 0.5vw solid #7faaff !important; /* moon accent */
-  background: #1a2233 !important;
+  border-left: 0.5vw solid #7faaff !important;
+  background: linear-gradient(90deg, #1a2233 0%, #7faaff 100%);
   box-shadow: 0 2px 12px 0 rgba(127, 170, 255, 0.12);
+  animation: accent-bar-pop 0.5s cubic-bezier(0.4, 1.6, 0.6, 1),
+    fireRowPulse2Dark 3s infinite alternate;
 }
+@keyframes fireRowPulse2 {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+@keyframes fireRowPulse2Dark {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
 .fireRow3 {
   border-left: 0.5vw solid #ff9800 !important;
-  background: #ffd180 !important;
+  background: linear-gradient(90deg, #ffd180 0%, #ff9800 100%);
   box-shadow: 0 4px 16px 0 rgba(255, 152, 0, 0.16);
-  animation: accent-bar-pop 0.5s cubic-bezier(0.4, 1.6, 0.6, 1);
+  animation: accent-bar-pop 0.5s cubic-bezier(0.4, 1.6, 0.6, 1),
+    fireRowPulse3 3s infinite alternate;
 }
 [data-theme="dark"] .fireRow3 {
-  border-left: 0.5vw solid #4b6fff !important; /* deep moon */
-  background: #10182a !important;
+  border-left: 0.5vw solid #4b6fff !important;
+  background: linear-gradient(90deg, #10182a 0%, #4b6fff 100%);
   box-shadow: 0 4px 16px 0 rgba(75, 111, 255, 0.16);
+  animation: accent-bar-pop 0.5s cubic-bezier(0.4, 1.6, 0.6, 1),
+    fireRowPulse3Dark 3s infinite alternate;
+}
+@keyframes fireRowPulse3 {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+@keyframes fireRowPulse3Dark {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
 }
 
 /* Table row hover and focus for interaction */
@@ -714,12 +797,10 @@ table.gmpTable {
 /* --- Compact & Highly Compact Table Styles --- */
 .compactTable th,
 .compactTable td {
-  font-size: 0.95vw !important;
   padding: 0.4vw 0.5vw !important;
 }
 .highlyCompactTable th,
 .highlyCompactTable td {
-  font-size: 0.8vw !important;
   padding: 0.2vw 0.3vw !important;
 }
 /* Per-column width tweaks for compact modes */
@@ -813,7 +894,6 @@ table.gmpTable {
   .compactTable td,
   .highlyCompactTable th,
   .highlyCompactTable td {
-    font-size: 2vw !important;
     min-width: 8vw !important;
     max-width: 18vw !important;
     padding: 0.8vw 0.8vw !important;
@@ -841,7 +921,6 @@ table.gmpTable {
   .compactTable td,
   .highlyCompactTable th,
   .highlyCompactTable td {
-    font-size: 2.5vw !important;
     min-width: 12vw !important;
     max-width: 24vw !important;
     padding: 1vw 1vw !important;
@@ -876,7 +955,6 @@ table.gmpTable {
   .compactTable td,
   .highlyCompactTable th,
   .highlyCompactTable td {
-    font-size: 3.5vw !important;
     min-width: 18vw !important;
     max-width: 32vw !important;
     padding: 1.2vw 1.2vw !important;
