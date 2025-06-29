@@ -798,3 +798,41 @@ table.gmpTable {
     margin-right: 1vw !important;
   }
 }
+
+/* Sticky first column */
+.stickyCol {
+  position: sticky;
+  left: 0;
+  background: inherit;
+  z-index: 2;
+  box-shadow: 2px 0 4px -2px #0001;
+}
+
+/* Row hover effect */
+.rowHover:hover {
+  background: #e6f7ff !important;
+  transition: background 0.2s;
+}
+[data-theme="dark"] .rowHover:hover {
+  background: #232b3b !important;
+}
+
+/* Smooth theme transitions: move to global CSS, not allowed in CSS modules */
+/* Remove from here and add to globals.css instead */
+
+/* Custom scrollbar for table wrapper */
+.tableWrapper::-webkit-scrollbar {
+  height: 0.7vw;
+  background: #eee;
+  border-radius: 0.5vw;
+}
+.tableWrapper::-webkit-scrollbar-thumb {
+  background: #bbb;
+  border-radius: 0.5vw;
+}
+[data-theme="dark"] .tableWrapper::-webkit-scrollbar {
+  background: #23272e;
+}
+[data-theme="dark"] .tableWrapper::-webkit-scrollbar-thumb {
+  background: #444;
+}

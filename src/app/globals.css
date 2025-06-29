@@ -7,6 +7,11 @@
   --bg-night: #232b3b;
 }
 
+:root,
+[data-theme="dark"] {
+  transition: background 0.3s, color 0.3s;
+}
+
 body {
   font-family: var(--font-geist-sans, Arial, sans-serif);
   background: #f5f6fa;
