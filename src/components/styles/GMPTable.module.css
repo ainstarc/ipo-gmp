@@ -451,6 +451,39 @@ table.gmpTable {
   background: #b3c6ff;
   color: #232b3b;
 }
+.fireBadge3 {
+  background: #ff9800;
+  color: #fff;
+  box-shadow: 0 1px 4px 0 #ff980033;
+  border: 2px solid #ff9800;
+}
+[data-theme="dark"] .fireBadge3 {
+  background: #ffd180;
+  color: #4a2a00;
+  border: 2px solid #ffd180;
+}
+.fireBadge4 {
+  background: #e65100;
+  color: #fff;
+  box-shadow: 0 1px 4px 0 #e6510033;
+  border: 2px solid #e65100;
+}
+[data-theme="dark"] .fireBadge4 {
+  background: #ffb74d;
+  color: #4a2a00;
+  border: 2px solid #ffb74d;
+}
+.fireBadge5 {
+  background: #d84315;
+  color: #fff;
+  box-shadow: 0 1px 4px 0 #d8431533;
+  border: 2px solid #d84315;
+}
+[data-theme="dark"] .fireBadge5 {
+  background: #ff8a65;
+  color: #4a2a00;
+  border: 2px solid #ff8a65;
+}
 @keyframes badge-pop {
   from {
     transform: scale(0.7);
@@ -615,6 +648,22 @@ table.gmpTable {
 [data-theme="dark"] .nameBadge_close {
   background: #ffd180;
   color: #4a2a00;
+}
+
+.nameBadge_listing {
+  background: #6a1b9a;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.95em;
+  border-radius: 0.5em;
+  padding: 0.1em 0.6em;
+  margin-left: 0.3em;
+  letter-spacing: 0.02em;
+  box-shadow: 0 1px 4px 0 #6a1b9a33;
+}
+[data-theme="dark"] .nameBadge_listing {
+  background: #ce93d8;
+  color: #2a003f;
 }
 
 /* Toggle bar for compact/expanded view */
