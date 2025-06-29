@@ -3,6 +3,7 @@
   margin-bottom: 2vw;
   overflow-x: auto;
   max-height: 70vh;
+  min-width: 900px;
   /* Allow vertical scroll for sticky header */
   position: relative;
   transition: background 0.2s;
@@ -26,6 +27,7 @@ table.gmpTable {
   border-radius: 1vw;
   box-shadow: 0 4px 24px 0 rgba(0, 0, 0, 0.06);
   overflow: hidden;
+  min-width: 900px;
 }
 
 [data-theme="dark"] table.gmpTable {
@@ -740,62 +742,99 @@ table.gmpTable {
   height: 0.7vw !important;
   margin-right: 0.3vw !important;
 }
-@media (max-width: 900px) {
-  .compactTable th,
-  .compactTable td {
-    font-size: 2.2vw !important;
-    padding: 0.7vw 1vw !important;
+@media (max-width: 1200px) {
+  .tableWrapper {
+    min-width: 700px;
+    overflow-x: auto !important;
   }
+  .gmpTable {
+    min-width: 700px;
+  }
+  .gmpTable,
+  .gmpTable thead th,
+  .gmpTable tbody td {
+    font-size: 1.8vw !important;
+    padding: 1vw 1vw !important;
+    max-width: 24vw !important;
+  }
+  .wrapCell {
+    max-width: 24vw !important;
+  }
+  .compactTable th,
+  .compactTable td,
   .highlyCompactTable th,
   .highlyCompactTable td {
-    font-size: 1.7vw !important;
-    padding: 0.4vw 0.7vw !important;
+    font-size: 2vw !important;
+    min-width: 8vw !important;
+    max-width: 18vw !important;
+    padding: 0.8vw 0.8vw !important;
   }
-  .compactTable .col-name,
-  .highlyCompactTable .col-name {
-    min-width: 18vw;
-    max-width: 30vw;
+}
+@media (max-width: 900px) {
+  .tableWrapper {
+    min-width: 500px;
+    overflow-x: auto !important;
   }
-  .compactTable .col-fire,
-  .highlyCompactTable .col-fire {
-    min-width: 7vw;
-    max-width: 10vw;
+  .gmpTable {
+    min-width: 500px;
   }
-  .compactTable .col-gmp,
-  .highlyCompactTable .col-gmp {
-    min-width: 10vw;
-    max-width: 15vw;
+  .gmpTable,
+  .gmpTable thead th,
+  .gmpTable tbody td {
+    font-size: 2.8vw !important;
+    padding: 1.2vw 1.2vw !important;
+    max-width: 36vw !important;
+  }
+  .wrapCell {
+    max-width: 36vw !important;
+  }
+  .compactTable th,
+  .compactTable td,
+  .highlyCompactTable th,
+  .highlyCompactTable td {
+    font-size: 2.5vw !important;
+    min-width: 12vw !important;
+    max-width: 24vw !important;
+    padding: 1vw 1vw !important;
   }
 }
 @media (max-width: 600px) {
   .tableWrapper {
+    min-width: 320px;
     overflow-x: auto !important;
     margin-bottom: 4vw !important;
+    max-height: 90vh !important;
   }
-  table.gmpTable,
+  .gmpTable {
+    min-width: 320px;
+  }
+  .gmpTable,
   .gmpTable thead th,
   .gmpTable tbody td,
   .wrapCell,
   .gmpPositive,
   .gmpNegative,
   .gmpNeutral {
-    font-size: 3.8vw !important;
-    max-width: 48vw !important;
+    font-size: 4vw !important;
+    max-width: 60vw !important;
     padding: 2vw 2vw !important;
     border-radius: 2vw !important;
     white-space: nowrap !important;
     word-break: break-word !important;
     overflow-wrap: break-word !important;
   }
-  .fireBadge {
-    font-size: 3vw !important;
-    min-width: 5vw !important;
-    padding: 0.4vw 1.6vw !important;
+  .compactTable th,
+  .compactTable td,
+  .highlyCompactTable th,
+  .highlyCompactTable td {
+    font-size: 3.5vw !important;
+    min-width: 18vw !important;
+    max-width: 32vw !important;
+    padding: 1.2vw 1.2vw !important;
   }
-  .gmpHeatDot {
-    width: 2vw !important;
-    height: 2vw !important;
-    margin-right: 1vw !important;
+  .stickyCol {
+    min-width: 24vw !important;
+    max-width: 32vw !important;
   }
 }
 
