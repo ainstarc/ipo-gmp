@@ -26,7 +26,13 @@ function getCurrentTheme() {
 function renderFire(val: string) {
     if (!val) return "—";
     const count = (val.match(/🔥/g) || []).length;
-    if (count > 0) return <span className={styles.fireBadge}>{count} 🔥</span>;
+    if (count > 0) {
+        let badgeClass = styles.fireBadge;
+        if (count === 3) badgeClass += ' ' + styles.fireBadge3;
+        else if (count === 4) badgeClass += ' ' + styles.fireBadge4;
+        else if (count >= 5) badgeClass += ' ' + styles.fireBadge5;
+        return <span className={badgeClass}>{count} 🔥</span>;
+    }
     return val;
 }
 function renderGmpValue(val: string) {
@@ -169,6 +175,7 @@ function renderDate(val: string) {
 function getNameSuffixType(name: string) {
     if (!name) return null;
     const trimmed = name.trim();
+    if (/L@/i.test(trimmed)) return { type: "listing", label: "Listing" };
     if (/\bU$/.test(trimmed)) return { type: "upcoming", label: "Upcoming" };
     if (/\bC$/.test(trimmed)) return { type: "close", label: "Close" };
     if (/\bO$/.test(trimmed)) return { type: "open", label: "Open" };
@@ -177,9 +184,16 @@ function getNameSuffixType(name: string) {
 function renderNameCell(val: string) {
     const suffix = getNameSuffixType(val);
     if (!suffix) return <span className={styles.nameWithBadge}>{val}</span>;
+    let displayName = val;
+    if (suffix.type === "listing") {
+        // Remove L@... from display name, keep badge
+        displayName = val.replace(/L@[^\s]+(\s*\([^)]*\))?/, "").trim();
+    } else {
+        displayName = val.replace(/\b[UCO]$/, "").trim();
+    }
     return (
         <span className={styles.nameWithBadge}>
-            {val.replace(/\b[UCO]$/, "").trim()}
+            {displayName}
             <span className={styles["nameBadge_" + suffix.type]} title={suffix.label}>{suffix.label.charAt(0)}</span>
         </span>
     );
