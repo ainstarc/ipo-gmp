@@ -3,6 +3,7 @@
 import React, { useEffect, useState } from "react";
 import TabGroup from "../components/TabGroup";
 import GMPTable from "../components/GMPTable";
+import QueryTable from "../components/QueryTable";
 import { parseGmpJson, GMPReport } from "../utils/parseGmpJson";
 import { gmpPages } from "../utils/gmpPages";
 
@@ -31,6 +32,7 @@ export default function HomePage() {
     const [reports, setReports] = useState<GMPReport[]>([]);
     const [activeTab, setActiveTab] = useState<string>("");
     const [loading, setLoading] = useState(true);
+    const [showQuery, setShowQuery] = useState(false);
 
     useEffect(() => {
         fetchGmpData().then((data) => {
@@ -63,15 +65,28 @@ export default function HomePage() {
     const current = reports.find((r) => r.title === activeTab);
     const headers = current?.data?.length ? Object.keys(current.data[0]) : [];
 
+    // For Query Table, use only All GMP (superset of other GMP tables)
+    const queryRows = reports.find(r => r.title === "All GMP")?.data || [];
+    const queryHeaders = queryRows.length ? Object.keys(queryRows[0]) : headers;
+
     return (
         <main>
             <h1 className="main-title">INDIA IPO GREY MARKET DASHBOARD</h1>
             <TabGroup
-                tabs={reports.map((r) => r.title)}
-                activeTab={activeTab}
-                setActiveTab={setActiveTab}
+                tabs={[...reports.map((r) => r.title), "Query Table"]}
+                activeTab={showQuery ? "Query Table" : activeTab}
+                setActiveTab={tab => {
+                    if (tab === "Query Table") {
+                        setShowQuery(true);
+                    } else {
+                        setShowQuery(false);
+                        setActiveTab(tab);
+                    }
+                }}
             />
-            {current && headers.length ? (
+            {showQuery ? (
+                <QueryTable headers={queryHeaders} rows={queryRows} />
+            ) : current && headers.length ? (
                 <GMPTable headers={headers} rows={current.data} title={current.title} />
             ) : (
                 <div className="noDataMsg">
