@@ -72,7 +72,7 @@ export default function HomePage() {
                 setActiveTab={setActiveTab}
             />
             {current && headers.length ? (
-                <GMPTable headers={headers} rows={current.data} />
+                <GMPTable headers={headers} rows={current.data} title={current.title} />
             ) : (
                 <div className="noDataMsg">
                     No data available for this tab.
