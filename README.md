@@ -1,6 +1,6 @@
-# IPO GMP Dashboard
+# INDIA IPO GREY MARKET DASHBOARD
 
-A modern, responsive dashboard for IPO Grey Market Premium (GMP) and performance data, built with Next.js and deployed as a static site to GitHub Pages. Data is sourced from [investorgain.com](https://www.investorgain.com/report/live-ipo-gmp/331/all/).
+A modern, high-contrast, all-caps dashboard for IPO Grey Market Premium (GMP) and performance data, built with Next.js and deployed as a static site to GitHub Pages. Data is sourced from [investorgain.com](https://www.investorgain.com/report/live-ipo-gmp/331/all/).
 
 ## Features
 
