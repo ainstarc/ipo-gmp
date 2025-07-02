@@ -4,7 +4,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import ThemeToggle from "@/components/ThemeToggle";
 import PingStatus from "@/components/PingStatus";
-import AccessGate from "@/components/AccessGate";
+// import AccessGate from "@/components/AccessGate";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -59,7 +59,7 @@ export default function RootLayout({
       >
         <ThemeToggle />
         <PingStatus />
-        <AccessGate>{children}</AccessGate>
+          {children}
       </body>
     </html>
   );
