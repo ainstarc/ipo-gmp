@@ -1,22 +1,6 @@
 {
   "allGMP": [
     {
-      "Name▲▼": "Asston Pharmaceuticals BSE SME U",
-      "GMP▲▼": "₹-- (%)",
-      "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "",
-      "Price▲▼": "",
-      "Est Listing▲▼": "--",
-      "IPO Size▲▼": "0.22 Cr Shares",
-      "Lot▲▼": "TBD",
-      "Open▲▼": "",
-      "Close▲▼": "",
-      "BoA Dt▲▼": "",
-      "Listing▲▼": "",
-      "GMP Updated▲▼": "4-Jul 8:07",
-      "": ""
-    },
-    {
       "Name▲▼": "Anthem Biosciences IPO U",
       "GMP▲▼": "₹-- (0.00%)",
       "Fire Rating▲▼": "🔥",
@@ -33,6 +17,22 @@
       "": ""
     },
     {
+      "Name▲▼": "Asston Pharmaceuticals BSE SME U",
+      "GMP▲▼": "₹-- (%)",
+      "Fire Rating▲▼": "🔥",
+      "Sub▲▼": "",
+      "Price▲▼": "123",
+      "Est Listing▲▼": "--",
+      "IPO Size▲▼": "₹26.17 Cr",
+      "Lot▲▼": "1,000",
+      "Open▲▼": "9-Jul",
+      "Close▲▼": "11-Jul",
+      "BoA Dt▲▼": "14-Jul",
+      "Listing▲▼": "16-Jul",
+      "GMP Updated▲▼": "4-Jul 8:07",
+      "": ""
+    },
+    {
       "Name▲▼": "CFF Fluid Control BSE SME U",
       "GMP▲▼": "₹-- (0.00%)",
       "Fire Rating▲▼": "🔥",
@@ -45,7 +45,7 @@
       "Close▲▼": "11-Jul",
       "BoA Dt▲▼": "14-Jul",
       "Listing▲▼": "16-Jul",
-      "GMP Updated▲▼": "4-Jul 9:00",
+      "GMP Updated▲▼": "4-Jul 10:01",
       "": ""
     },
     {
@@ -61,7 +61,7 @@
       "Close▲▼": "10-Jul",
       "BoA Dt▲▼": "11-Jul",
       "Listing▲▼": "15-Jul",
-      "GMP Updated▲▼": "4-Jul 8:54",
+      "GMP Updated▲▼": "4-Jul 10:01",
       "": ""
     },
     {
@@ -77,7 +77,7 @@
       "Close▲▼": "9-Jul",
       "BoA Dt▲▼": "10-Jul",
       "Listing▲▼": "14-Jul",
-      "GMP Updated▲▼": "4-Jul 9:02",
+      "GMP Updated▲▼": "4-Jul 9:54",
       "": ""
     },
     {
@@ -93,7 +93,7 @@
       "Close▲▼": "9-Jul",
       "BoA Dt▲▼": "10-Jul",
       "Listing▲▼": "14-Jul",
-      "GMP Updated▲▼": "4-Jul 8:53",
+      "GMP Updated▲▼": "4-Jul 9:57",
       "": ""
     },
     {
@@ -109,7 +109,7 @@
       "Close▲▼": "9-Jul",
       "BoA Dt▲▼": "10-Jul",
       "Listing▲▼": "14-Jul",
-      "GMP Updated▲▼": "4-Jul 8:58",
+      "GMP Updated▲▼": "4-Jul 10:01",
       "": ""
     },
     {
@@ -125,14 +125,14 @@
       "Close▲▼": "8-Jul",
       "BoA Dt▲▼": "9-Jul",
       "Listing▲▼": "11-Jul",
-      "GMP Updated▲▼": "4-Jul 9:00",
+      "GMP Updated▲▼": "4-Jul 9:56",
       "": ""
     },
     {
       "Name▲▼": "White Force NSE SME O",
       "GMP▲▼": "₹5 (6.58%)",
       "Fire Rating▲▼": "🔥🔥",
-      "Sub▲▼": "0.39x",
+      "Sub▲▼": "0.25x",
       "Price▲▼": "76",
       "Est Listing▲▼": "81 (6.58%)",
       "IPO Size▲▼": "₹22.06 Cr",
@@ -141,7 +141,7 @@
       "Close▲▼": "7-Jul",
       "BoA Dt▲▼": "8-Jul",
       "Listing▲▼": "10-Jul",
-      "GMP Updated▲▼": "4-Jul 9:01",
+      "GMP Updated▲▼": "4-Jul 9:59",
       "": ""
     },
     {
@@ -157,14 +157,14 @@
       "Close▲▼": "7-Jul",
       "BoA Dt▲▼": "8-Jul",
       "Listing▲▼": "10-Jul",
-      "GMP Updated▲▼": "4-Jul 8:54",
+      "GMP Updated▲▼": "4-Jul 9:59",
       "": ""
     },
     {
       "Name▲▼": "Crizac IPO CT",
       "GMP▲▼": "₹22 (8.98%)",
       "Fire Rating▲▼": "🔥🔥",
-      "Sub▲▼": "2.89x",
+      "Sub▲▼": "3.4x",
       "Price▲▼": "245",
       "Est Listing▲▼": "267 (8.98%)",
       "IPO Size▲▼": "₹860.00 Cr",
@@ -173,7 +173,7 @@
       "Close▲▼": "4-Jul",
       "BoA Dt▲▼": "7-Jul",
       "Listing▲▼": "9-Jul",
-      "GMP Updated▲▼": "4-Jul 8:58",
+      "GMP Updated▲▼": "4-Jul 9:55",
       "": ""
     },
     {
@@ -189,7 +189,7 @@
       "Close▲▼": "2-Jul",
       "BoA Dt▲▼": "3-Jul",
       "Listing▲▼": "7-Jul",
-      "GMP Updated▲▼": "4-Jul 8:53",
+      "GMP Updated▲▼": "4-Jul 9:56",
       "": ""
     },
     {
@@ -205,7 +205,7 @@
       "Close▲▼": "2-Jul",
       "BoA Dt▲▼": "3-Jul",
       "Listing▲▼": "7-Jul",
-      "GMP Updated▲▼": "4-Jul 8:56",
+      "GMP Updated▲▼": "4-Jul 10:00",
       "": ""
     },
     {
@@ -221,7 +221,7 @@
       "Close▲▼": "2-Jul",
       "BoA Dt▲▼": "3-Jul",
       "Listing▲▼": "7-Jul",
-      "GMP Updated▲▼": "4-Jul 9:02",
+      "GMP Updated▲▼": "4-Jul 9:54",
       "": ""
     },
     {
@@ -237,7 +237,7 @@
       "Close▲▼": "2-Jul",
       "BoA Dt▲▼": "3-Jul",
       "Listing▲▼": "7-Jul",
-      "GMP Updated▲▼": "4-Jul 8:59",
+      "GMP Updated▲▼": "4-Jul 10:00",
       "": ""
     },
     {
@@ -253,11 +253,11 @@
       "Close▲▼": "2-Jul",
       "BoA Dt▲▼": "3-Jul",
       "Listing▲▼": "7-Jul",
-      "GMP Updated▲▼": "4-Jul 9:02",
+      "GMP Updated▲▼": "4-Jul 9:54",
       "": ""
     },
     {
-      "Name▲▼": "Adcounty Media India BSE SME LT",
+      "Name▲▼": "Adcounty Media India BSE SME L@130.00 (52.94%)",
       "GMP▲▼": "₹40 (47.06%)",
       "Fire Rating▲▼": "🔥🔥🔥🔥",
       "Sub▲▼": "273.08x",
@@ -269,11 +269,11 @@
       "Close▲▼": "1-Jul",
       "BoA Dt▲▼": "2-Jul",
       "Listing▲▼": "4-Jul",
-      "GMP Updated▲▼": "4-Jul 8:59",
+      "GMP Updated▲▼": "4-Jul 9:31",
       "": ""
     },
     {
-      "Name▲▼": "Neetu Yoshi BSE SME LT",
+      "Name▲▼": "Neetu Yoshi BSE SME L@105.00 (40%)",
       "GMP▲▼": "₹18.5 (24.67%)",
       "Fire Rating▲▼": "🔥🔥🔥🔥",
       "Sub▲▼": "128.18x",
@@ -285,7 +285,7 @@
       "Close▲▼": "1-Jul",
       "BoA Dt▲▼": "2-Jul",
       "Listing▲▼": "4-Jul",
-      "GMP Updated▲▼": "4-Jul 9:00",
+      "GMP Updated▲▼": "4-Jul 9:37",
       "": ""
     },
     {
@@ -591,14 +591,14 @@
       "Close▲▼": "9-Jul",
       "BoA Dt▲▼": "10-Jul",
       "Listing▲▼": "14-Jul",
-      "GMP Updated▲▼": "4-Jul 8:58",
+      "GMP Updated▲▼": "4-Jul 10:01",
       "": ""
     },
     {
       "Name▲▼": "Crizac IPO CT",
       "GMP▲▼": "₹22 (8.98%)",
       "Fire Rating▲▼": "🔥🔥",
-      "Sub▲▼": "2.89x",
+      "Sub▲▼": "3.4x",
       "Price▲▼": "245",
       "Est Listing▲▼": "267 (8.98%)",
       "IPO Size▲▼": "₹860.00 Cr",
@@ -607,7 +607,7 @@
       "Close▲▼": "4-Jul",
       "BoA Dt▲▼": "7-Jul",
       "Listing▲▼": "9-Jul",
-      "GMP Updated▲▼": "4-Jul 8:58",
+      "GMP Updated▲▼": "4-Jul 9:55",
       "": ""
     },
     {
@@ -713,14 +713,14 @@
       "GMP▲▼": "₹-- (%)",
       "Fire Rating▲▼": "🔥",
       "Sub▲▼": "",
-      "Price▲▼": "",
+      "Price▲▼": "123",
       "Est Listing▲▼": "--",
-      "IPO Size▲▼": "0.22 Cr Shares",
-      "Lot▲▼": "TBD",
-      "Open▲▼": "",
-      "Close▲▼": "",
-      "BoA Dt▲▼": "",
-      "Listing▲▼": "",
+      "IPO Size▲▼": "₹26.17 Cr",
+      "Lot▲▼": "1,000",
+      "Open▲▼": "9-Jul",
+      "Close▲▼": "11-Jul",
+      "BoA Dt▲▼": "14-Jul",
+      "Listing▲▼": "16-Jul",
       "GMP Updated▲▼": "4-Jul 8:07",
       "": ""
     },
@@ -737,7 +737,7 @@
       "Close▲▼": "11-Jul",
       "BoA Dt▲▼": "14-Jul",
       "Listing▲▼": "16-Jul",
-      "GMP Updated▲▼": "4-Jul 9:00",
+      "GMP Updated▲▼": "4-Jul 10:01",
       "": ""
     },
     {
@@ -753,7 +753,7 @@
       "Close▲▼": "10-Jul",
       "BoA Dt▲▼": "11-Jul",
       "Listing▲▼": "15-Jul",
-      "GMP Updated▲▼": "4-Jul 8:54",
+      "GMP Updated▲▼": "4-Jul 10:01",
       "": ""
     },
     {
@@ -769,7 +769,7 @@
       "Close▲▼": "9-Jul",
       "BoA Dt▲▼": "10-Jul",
       "Listing▲▼": "14-Jul",
-      "GMP Updated▲▼": "4-Jul 9:02",
+      "GMP Updated▲▼": "4-Jul 9:54",
       "": ""
     },
     {
@@ -785,7 +785,7 @@
       "Close▲▼": "9-Jul",
       "BoA Dt▲▼": "10-Jul",
       "Listing▲▼": "14-Jul",
-      "GMP Updated▲▼": "4-Jul 8:53",
+      "GMP Updated▲▼": "4-Jul 9:57",
       "": ""
     },
     {
@@ -801,14 +801,14 @@
       "Close▲▼": "8-Jul",
       "BoA Dt▲▼": "9-Jul",
       "Listing▲▼": "11-Jul",
-      "GMP Updated▲▼": "4-Jul 9:00",
+      "GMP Updated▲▼": "4-Jul 9:56",
       "": ""
     },
     {
       "Name▲▼": "White Force NSE SME O",
       "GMP▲▼": "₹5 (6.58%)",
       "Fire Rating▲▼": "🔥🔥",
-      "Sub▲▼": "0.39x",
+      "Sub▲▼": "0.25x",
       "Price▲▼": "76",
       "Est Listing▲▼": "81 (6.58%)",
       "IPO Size▲▼": "₹22.06 Cr",
@@ -817,7 +817,7 @@
       "Close▲▼": "7-Jul",
       "BoA Dt▲▼": "8-Jul",
       "Listing▲▼": "10-Jul",
-      "GMP Updated▲▼": "4-Jul 9:01",
+      "GMP Updated▲▼": "4-Jul 9:59",
       "": ""
     },
     {
@@ -833,7 +833,7 @@
       "Close▲▼": "7-Jul",
       "BoA Dt▲▼": "8-Jul",
       "Listing▲▼": "10-Jul",
-      "GMP Updated▲▼": "4-Jul 8:54",
+      "GMP Updated▲▼": "4-Jul 9:59",
       "": ""
     },
     {
@@ -849,7 +849,7 @@
       "Close▲▼": "2-Jul",
       "BoA Dt▲▼": "3-Jul",
       "Listing▲▼": "7-Jul",
-      "GMP Updated▲▼": "4-Jul 8:53",
+      "GMP Updated▲▼": "4-Jul 9:56",
       "": ""
     },
     {
@@ -865,7 +865,7 @@
       "Close▲▼": "2-Jul",
       "BoA Dt▲▼": "3-Jul",
       "Listing▲▼": "7-Jul",
-      "GMP Updated▲▼": "4-Jul 8:56",
+      "GMP Updated▲▼": "4-Jul 10:00",
       "": ""
     },
     {
@@ -881,7 +881,7 @@
       "Close▲▼": "2-Jul",
       "BoA Dt▲▼": "3-Jul",
       "Listing▲▼": "7-Jul",
-      "GMP Updated▲▼": "4-Jul 9:02",
+      "GMP Updated▲▼": "4-Jul 9:54",
       "": ""
     },
     {
@@ -897,7 +897,7 @@
       "Close▲▼": "2-Jul",
       "BoA Dt▲▼": "3-Jul",
       "Listing▲▼": "7-Jul",
-      "GMP Updated▲▼": "4-Jul 8:59",
+      "GMP Updated▲▼": "4-Jul 10:00",
       "": ""
     },
     {
@@ -913,11 +913,11 @@
       "Close▲▼": "2-Jul",
       "BoA Dt▲▼": "3-Jul",
       "Listing▲▼": "7-Jul",
-      "GMP Updated▲▼": "4-Jul 9:02",
+      "GMP Updated▲▼": "4-Jul 9:54",
       "": ""
     },
     {
-      "Name▲▼": "Adcounty Media India BSE SME LT",
+      "Name▲▼": "Adcounty Media India BSE SME L@130.00 (52.94%)",
       "GMP▲▼": "₹40 (47.06%)",
       "Fire Rating▲▼": "🔥🔥🔥🔥",
       "Sub▲▼": "273.08x",
@@ -929,11 +929,11 @@
       "Close▲▼": "1-Jul",
       "BoA Dt▲▼": "2-Jul",
       "Listing▲▼": "4-Jul",
-      "GMP Updated▲▼": "4-Jul 8:59",
+      "GMP Updated▲▼": "4-Jul 9:31",
       "": ""
     },
     {
-      "Name▲▼": "Neetu Yoshi BSE SME LT",
+      "Name▲▼": "Neetu Yoshi BSE SME L@105.00 (40%)",
       "GMP▲▼": "₹18.5 (24.67%)",
       "Fire Rating▲▼": "🔥🔥🔥🔥",
       "Sub▲▼": "128.18x",
@@ -945,7 +945,7 @@
       "Close▲▼": "1-Jul",
       "BoA Dt▲▼": "2-Jul",
       "Listing▲▼": "4-Jul",
-      "GMP Updated▲▼": "4-Jul 9:00",
+      "GMP Updated▲▼": "4-Jul 9:37",
       "": ""
     },
     {
@@ -1127,22 +1127,6 @@
   ],
   "currentGMP": [
     {
-      "Name▲▼": "Asston Pharmaceuticals BSE SME U",
-      "GMP▲▼": "₹-- (%)",
-      "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "",
-      "Price▲▼": "",
-      "Est Listing▲▼": "--",
-      "IPO Size▲▼": "0.22 Cr Shares",
-      "Lot▲▼": "TBD",
-      "Open▲▼": "",
-      "Close▲▼": "",
-      "BoA Dt▲▼": "",
-      "Listing▲▼": "",
-      "GMP Updated▲▼": "4-Jul 8:07",
-      "": ""
-    },
-    {
       "Name▲▼": "Anthem Biosciences IPO U",
       "GMP▲▼": "₹-- (0.00%)",
       "Fire Rating▲▼": "🔥",
@@ -1159,6 +1143,22 @@
       "": ""
     },
     {
+      "Name▲▼": "Asston Pharmaceuticals BSE SME U",
+      "GMP▲▼": "₹-- (%)",
+      "Fire Rating▲▼": "🔥",
+      "Sub▲▼": "",
+      "Price▲▼": "123",
+      "Est Listing▲▼": "--",
+      "IPO Size▲▼": "₹26.17 Cr",
+      "Lot▲▼": "1,000",
+      "Open▲▼": "9-Jul",
+      "Close▲▼": "11-Jul",
+      "BoA Dt▲▼": "14-Jul",
+      "Listing▲▼": "16-Jul",
+      "GMP Updated▲▼": "4-Jul 8:07",
+      "": ""
+    },
+    {
       "Name▲▼": "CFF Fluid Control BSE SME U",
       "GMP▲▼": "₹-- (0.00%)",
       "Fire Rating▲▼": "🔥",
@@ -1171,7 +1171,7 @@
       "Close▲▼": "11-Jul",
       "BoA Dt▲▼": "14-Jul",
       "Listing▲▼": "16-Jul",
-      "GMP Updated▲▼": "4-Jul 9:00",
+      "GMP Updated▲▼": "4-Jul 10:01",
       "": ""
     },
     {
@@ -1187,7 +1187,7 @@
       "Close▲▼": "10-Jul",
       "BoA Dt▲▼": "11-Jul",
       "Listing▲▼": "15-Jul",
-      "GMP Updated▲▼": "4-Jul 8:54",
+      "GMP Updated▲▼": "4-Jul 10:01",
       "": ""
     },
     {
@@ -1203,7 +1203,7 @@
       "Close▲▼": "9-Jul",
       "BoA Dt▲▼": "10-Jul",
       "Listing▲▼": "14-Jul",
-      "GMP Updated▲▼": "4-Jul 9:02",
+      "GMP Updated▲▼": "4-Jul 9:54",
       "": ""
     },
     {
@@ -1219,7 +1219,7 @@
       "Close▲▼": "9-Jul",
       "BoA Dt▲▼": "10-Jul",
       "Listing▲▼": "14-Jul",
-      "GMP Updated▲▼": "4-Jul 8:53",
+      "GMP Updated▲▼": "4-Jul 9:57",
       "": ""
     },
     {
@@ -1235,7 +1235,7 @@
       "Close▲▼": "9-Jul",
       "BoA Dt▲▼": "10-Jul",
       "Listing▲▼": "14-Jul",
-      "GMP Updated▲▼": "4-Jul 8:58",
+      "GMP Updated▲▼": "4-Jul 10:01",
       "": ""
     },
     {
@@ -1251,14 +1251,14 @@
       "Close▲▼": "8-Jul",
       "BoA Dt▲▼": "9-Jul",
       "Listing▲▼": "11-Jul",
-      "GMP Updated▲▼": "4-Jul 9:00",
+      "GMP Updated▲▼": "4-Jul 9:56",
       "": ""
     },
     {
       "Name▲▼": "White Force NSE SME O",
       "GMP▲▼": "₹5 (6.58%)",
       "Fire Rating▲▼": "🔥🔥",
-      "Sub▲▼": "0.39x",
+      "Sub▲▼": "0.25x",
       "Price▲▼": "76",
       "Est Listing▲▼": "81 (6.58%)",
       "IPO Size▲▼": "₹22.06 Cr",
@@ -1267,7 +1267,7 @@
       "Close▲▼": "7-Jul",
       "BoA Dt▲▼": "8-Jul",
       "Listing▲▼": "10-Jul",
-      "GMP Updated▲▼": "4-Jul 9:01",
+      "GMP Updated▲▼": "4-Jul 9:59",
       "": ""
     },
     {
@@ -1283,14 +1283,14 @@
       "Close▲▼": "7-Jul",
       "BoA Dt▲▼": "8-Jul",
       "Listing▲▼": "10-Jul",
-      "GMP Updated▲▼": "4-Jul 8:54",
+      "GMP Updated▲▼": "4-Jul 9:59",
       "": ""
     },
     {
       "Name▲▼": "Crizac IPO CT",
       "GMP▲▼": "₹22 (8.98%)",
       "Fire Rating▲▼": "🔥🔥",
-      "Sub▲▼": "2.89x",
+      "Sub▲▼": "3.4x",
       "Price▲▼": "245",
       "Est Listing▲▼": "267 (8.98%)",
       "IPO Size▲▼": "₹860.00 Cr",
@@ -1299,7 +1299,7 @@
       "Close▲▼": "4-Jul",
       "BoA Dt▲▼": "7-Jul",
       "Listing▲▼": "9-Jul",
-      "GMP Updated▲▼": "4-Jul 8:58",
+      "GMP Updated▲▼": "4-Jul 9:55",
       "": ""
     }
   ],
@@ -3259,6 +3259,32 @@
   ],
   "smePerf": [
     {
+      "IPO▲▼": "Adcounty Media India BSE SME (544435)",
+      "Listing Date▲▼": "4-Jul-2025",
+      "IPO_Size▲▼": "47.83",
+      "Subscription▲▼": "273.08x",
+      "GMP▲▼": "₹404🔥Hot inbox",
+      "IPO Price▲▼": "₹ 85.00",
+      "Estimated Price▲▼": "₹ 125 (47.06%)",
+      "Listing Price▲▼": "",
+      "Closing Price▲▼": "",
+      "LTP▲▼": "",
+      "": ""
+    },
+    {
+      "IPO▲▼": "Neetu Yoshi BSE SME (544434)",
+      "Listing Date▲▼": "4-Jul-2025",
+      "IPO_Size▲▼": "73.14",
+      "Subscription▲▼": "128.18x",
+      "GMP▲▼": "₹18.54🔥Hot inbox",
+      "IPO Price▲▼": "₹ 75.00",
+      "Estimated Price▲▼": "₹ 93.5 (24.67%)",
+      "Listing Price▲▼": "",
+      "Closing Price▲▼": "",
+      "LTP▲▼": "",
+      "": ""
+    },
+    {
       "IPO▲▼": "Valencia India BSE SME (544433)",
       "Listing Date▲▼": "3-Jul-2025",
       "IPO_Size▲▼": "46.49",
@@ -3272,19 +3298,6 @@
       "": ""
     },
     {
-      "IPO▲▼": "PRO FX Tech NSE SME (PROFX)",
-      "Listing Date▲▼": "3-Jul-2025",
-      "IPO_Size▲▼": "38.21",
-      "Subscription▲▼": "25.42x",
-      "GMP▲▼": "₹133🔥Hot inbox",
-      "IPO Price▲▼": "₹ 87.00",
-      "Estimated Price▲▼": "₹ 100 (14.94%)",
-      "Listing Price▲▼": "95.00 (9.2%)",
-      "Closing Price▲▼": "99.75 (14.66%)",
-      "LTP▲▼": "99.75 (14.66%)",
-      "": ""
-    },
-    {
       "IPO▲▼": "Ace Alpha Tech BSE SME (544431)",
       "Listing Date▲▼": "3-Jul-2025",
       "IPO_Size▲▼": "30.40",
@@ -3295,6 +3308,19 @@
       "Listing Price▲▼": "81.00 (17.39%)",
       "Closing Price▲▼": "85.05 (23.26%)",
       "LTP▲▼": "85.05 (23.26%)",
+      "": ""
+    },
+    {
+      "IPO▲▼": "PRO FX Tech NSE SME (PROFX)",
+      "Listing Date▲▼": "3-Jul-2025",
+      "IPO_Size▲▼": "38.21",
+      "Subscription▲▼": "25.42x",
+      "GMP▲▼": "₹133🔥Hot inbox",
+      "IPO Price▲▼": "₹ 87.00",
+      "Estimated Price▲▼": "₹ 100 (14.94%)",
+      "Listing Price▲▼": "95.00 (9.2%)",
+      "Closing Price▲▼": "99.75 (14.66%)",
+      "LTP▲▼": "99.75 (14.66%)",
       "": ""
     },
     {
@@ -3363,16 +3389,16 @@
       "": ""
     },
     {
-      "IPO▲▼": "Shri Hare-Krishna Sponge NSE SME (SHKSIL)",
+      "IPO▲▼": "AJC Jewel BSE SME (544425)",
       "Listing Date▲▼": "1-Jul-2025",
-      "IPO_Size▲▼": "28.39",
-      "Subscription▲▼": "6.84x",
-      "GMP▲▼": "₹01🔥Hot inbox",
-      "IPO Price▲▼": "₹ 59.00",
-      "Estimated Price▲▼": "₹ 59 (0.00%)",
-      "Listing Price▲▼": "64.80 (9.83%)",
-      "Closing Price▲▼": "64.55 (9.41%)",
-      "LTP▲▼": "66.25 (12.29%)",
+      "IPO_Size▲▼": "14.59",
+      "Subscription▲▼": "2.82x",
+      "GMP▲▼": "₹41🔥Hot inbox",
+      "IPO Price▲▼": "₹ 95.00",
+      "Estimated Price▲▼": "₹ 99 (4.21%)",
+      "Listing Price▲▼": "99.00 (4.21%)",
+      "Closing Price▲▼": "95.39 (0.41%)",
+      "LTP▲▼": "91.49 (-3.69%)",
       "": ""
     },
     {
@@ -3389,16 +3415,29 @@
       "": ""
     },
     {
-      "IPO▲▼": "AJC Jewel BSE SME (544425)",
+      "IPO▲▼": "Shri Hare-Krishna Sponge NSE SME (SHKSIL)",
       "Listing Date▲▼": "1-Jul-2025",
-      "IPO_Size▲▼": "14.59",
-      "Subscription▲▼": "2.82x",
-      "GMP▲▼": "₹41🔥Hot inbox",
-      "IPO Price▲▼": "₹ 95.00",
-      "Estimated Price▲▼": "₹ 99 (4.21%)",
-      "Listing Price▲▼": "99.00 (4.21%)",
-      "Closing Price▲▼": "95.39 (0.41%)",
-      "LTP▲▼": "91.49 (-3.69%)",
+      "IPO_Size▲▼": "28.39",
+      "Subscription▲▼": "6.84x",
+      "GMP▲▼": "₹01🔥Hot inbox",
+      "IPO Price▲▼": "₹ 59.00",
+      "Estimated Price▲▼": "₹ 59 (0.00%)",
+      "Listing Price▲▼": "64.80 (9.83%)",
+      "Closing Price▲▼": "64.55 (9.41%)",
+      "LTP▲▼": "66.25 (12.29%)",
+      "": ""
+    },
+    {
+      "IPO▲▼": "Aakaar Medical Technologies NSE SME (AAKAAR)",
+      "Listing Date▲▼": "27-Jun-2025",
+      "IPO_Size▲▼": "25.64",
+      "Subscription▲▼": "2.28x",
+      "GMP▲▼": "₹01🔥Hot inbox",
+      "IPO Price▲▼": "₹ 72.00",
+      "Estimated Price▲▼": "₹ 72 (0.00%)",
+      "Listing Price▲▼": "75.00 (4.17%)",
+      "Closing Price▲▼": "71.25 (-1.04%)",
+      "LTP▲▼": "64.75 (-10.07%)",
       "": ""
     },
     {
@@ -3425,19 +3464,6 @@
       "Listing Price▲▼": "58.00 (23.4%)",
       "Closing Price▲▼": "60.90 (29.57%)",
       "LTP▲▼": "56.95 (21.17%)",
-      "": ""
-    },
-    {
-      "IPO▲▼": "Aakaar Medical Technologies NSE SME (AAKAAR)",
-      "Listing Date▲▼": "27-Jun-2025",
-      "IPO_Size▲▼": "25.64",
-      "Subscription▲▼": "2.28x",
-      "GMP▲▼": "₹01🔥Hot inbox",
-      "IPO Price▲▼": "₹ 72.00",
-      "Estimated Price▲▼": "₹ 72 (0.00%)",
-      "Listing Price▲▼": "75.00 (4.17%)",
-      "Closing Price▲▼": "71.25 (-1.04%)",
-      "LTP▲▼": "64.75 (-10.07%)",
       "": ""
     },
     {
@@ -4169,19 +4195,6 @@
       "": ""
     },
     {
-      "IPO▲▼": "Solarium Green BSE SME (544354)",
-      "Listing Date▲▼": "13-Feb-2025",
-      "IPO_Size▲▼": "105.04",
-      "Subscription▲▼": "8.83x",
-      "GMP▲▼": "₹51🔥Hot inbox",
-      "IPO Price▲▼": "₹ 191.00",
-      "Estimated Price▲▼": "₹ 196 (2.62%)",
-      "Listing Price▲▼": "202.00 (5.76%)",
-      "Closing Price▲▼": "211.90 (10.94%)",
-      "LTP▲▼": "458.5 (140.05%)",
-      "": ""
-    },
-    {
       "IPO▲▼": "Readymix Construction NSE SME (READYMIX)",
       "Listing Date▲▼": "13-Feb-2025",
       "IPO_Size▲▼": "37.66",
@@ -4192,6 +4205,19 @@
       "Listing Price▲▼": "123.00 (0%)",
       "Closing Price▲▼": "116.85 (-5.00%)",
       "LTP▲▼": "113.55 (-7.68%)",
+      "": ""
+    },
+    {
+      "IPO▲▼": "Solarium Green BSE SME (544354)",
+      "Listing Date▲▼": "13-Feb-2025",
+      "IPO_Size▲▼": "105.04",
+      "Subscription▲▼": "8.83x",
+      "GMP▲▼": "₹51🔥Hot inbox",
+      "IPO Price▲▼": "₹ 191.00",
+      "Estimated Price▲▼": "₹ 196 (2.62%)",
+      "Listing Price▲▼": "202.00 (5.76%)",
+      "Closing Price▲▼": "211.90 (10.94%)",
+      "LTP▲▼": "458.5 (140.05%)",
       "": ""
     },
     {
