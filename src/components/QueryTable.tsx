@@ -34,8 +34,8 @@ const QueryTable: React.FC<QueryTableProps> = ({ headers, rows }) => {
         console.log('[QueryTable] Parsed clauses: ', clauses);
         return (row) => {
             for (const clause of clauses) {
-                // Support badge queries: Name endswith U/O/C/L
-                const badgeMatch = clause.match(/^Name\s+endswith\s+([UOCL])$/i);
+                // Support badge queries: Name endswith U/O/C/L/CT
+                const badgeMatch = clause.match(/^Name\s+endswith\s+(CT|[UOCL])$/i);
                 if (badgeMatch) {
                     const nameKey = fieldMap['name'] || 'Name';
                     const name = (row[nameKey] || "").trim();
