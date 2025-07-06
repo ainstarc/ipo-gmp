@@ -48,8 +48,7 @@ export default function HomePage() {
         "Mainboard GMP": "mainboardGMP",
         "SME GMP": "smeGMP",
         "All IPO Performance": "allPerf",
-        "Mainline IPO Performance": "mainlinePerf",
-        "SME IPO Performance": "smePerf",
+        "All Subscriptions": "allSub",
     };
     const currentKey = tabKeyMap[activeTab];
     const sourceUrl = currentKey ? gmpPages[currentKey] : undefined;

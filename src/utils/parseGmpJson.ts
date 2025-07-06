@@ -27,22 +27,14 @@ export function parseGmpJson(raw: Record<string, unknown>): GMPReport[] {
   if (currentGMP)
     reports.push({ title: "Current Market GMP", data: currentGMP });
 
-  const mainboardGMP = getArray(raw, "mainboardGMP");
-  if (mainboardGMP)
-    reports.push({ title: "Mainboard GMP", data: mainboardGMP });
-
   const smeGMP = getArray(raw, "smeGMP");
   if (smeGMP) reports.push({ title: "SME GMP", data: smeGMP });
 
+  const allSub = getArray(raw, "allSub");
+  if (allSub) reports.push({ title: "All Subscriptions", data: allSub });
+
   const allPerf = getArray(raw, "allPerf");
   if (allPerf) reports.push({ title: "All IPO Performance", data: allPerf });
-
-  const mainlinePerf = getArray(raw, "mainlinePerf");
-  if (mainlinePerf)
-    reports.push({ title: "Mainline IPO Performance", data: mainlinePerf });
-
-  const smePerf = getArray(raw, "smePerf");
-  if (smePerf) reports.push({ title: "SME IPO Performance", data: smePerf });
 
   return reports;
 }
