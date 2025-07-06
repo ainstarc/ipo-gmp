@@ -749,6 +749,39 @@ table.gmpTable {
   color: #2a003f;
 }
 
+.nameBadge_closing_today {
+  background: linear-gradient(90deg, #ff512f 0%, #ff9800 100%);
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.05em;
+  border-radius: 0.6em;
+  padding: 0.1em 0.8em 0.1em 0.6em;
+  margin-left: 0.3em;
+  letter-spacing: 0.04em;
+  box-shadow: 0 2px 8px 0 #ff512f33;
+  border: 2px solid #ff512f;
+  position: relative;
+  animation: closingTodayPulse 1.2s infinite alternate;
+}
+.nameBadge_closing_today::before {
+  font-size: 1em;
+  margin-right: 0.1em;
+}
+[data-theme="dark"] .nameBadge_closing_today {
+  background: linear-gradient(90deg, #ffd180 0%, #ff9800 100%);
+  color: #4a2a00;
+  border: 2px solid #ff9800;
+  box-shadow: 0 2px 8px 0 #ffd18055;
+}
+@keyframes closingTodayPulse {
+  0% {
+    filter: brightness(1);
+  }
+  100% {
+    filter: brightness(1.15);
+  }
+}
+
 /* Toggle bar for compact/expanded view */
 .toggleBar {
   display: flex;

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import styles from "./styles/GMPTable.module.css";
 
-// --- Helper functions and constants (copy from your previous GMPTable.tsx) ---
 function cleanGmpValue(val: string) {
     if (!val) return "";
     return val.replace(/🔥.*$/g, "").replace(/Hot inbox/gi, "").trim();
@@ -176,8 +175,9 @@ function getNameSuffixType(name: string) {
     if (!name) return null;
     const trimmed = name.trim();
     if (/L@/i.test(trimmed)) return { type: "listing", label: "Listing" };
+    if (/\bCT$/.test(trimmed)) return { type: "closing_today", label: "Closing Today" };
+    if (/\bC$/.test(trimmed) && !/\bCT$/.test(trimmed)) return { type: "close", label: "Close" };
     if (/\bU$/.test(trimmed)) return { type: "upcoming", label: "Upcoming" };
-    if (/\bC$/.test(trimmed)) return { type: "close", label: "Close" };
     if (/\bO$/.test(trimmed)) return { type: "open", label: "Open" };
     return null;
 }
@@ -188,13 +188,21 @@ function renderNameCell(val: string) {
     if (suffix.type === "listing") {
         // Remove L@... from display name, keep badge
         displayName = val.replace(/L@[^\s]+(\s*\([^)]*\))?/, "").trim();
-    } else {
-        displayName = val.replace(/\b[UCO]$/, "").trim();
+    } else if (suffix.type === "closing_today") {
+        displayName = val.replace(/\bCT$/, "").trim();
+    } else if (suffix.type === "close") {
+        displayName = val.replace(/\bC$/, "").trim();
+    } else if (suffix.type === "upcoming") {
+        displayName = val.replace(/\bU$/, "").trim();
+    } else if (suffix.type === "open") {
+        displayName = val.replace(/\bO$/, "").trim();
     }
+    // Show 'CT' for closing_today, otherwise first letter of label
+    const badgeText = suffix.type === "closing_today" ? "CT" : suffix.label.charAt(0);
     return (
         <span className={styles.nameWithBadge}>
             {displayName}
-            <span className={styles["nameBadge_" + suffix.type]} title={suffix.label}>{suffix.label.charAt(0)}</span>
+            <span className={styles["nameBadge_" + suffix.type]} title={suffix.label}>{badgeText}</span>
         </span>
     );
 }
@@ -204,6 +212,48 @@ const COMPACT_COLUMNS = [
 const HIGHLY_COMPACT_COLUMNS = [
     "Name", "GMP", "Close", "Listing"
 ];
+
+// Render header cell
+function renderHeaderCell(header: string, viewMode: string) {
+    let thClass = styles.wrapCell;
+    if (viewMode !== 'expanded') {
+        const colKey = header.toLowerCase().replace(/\s+/g, '-');
+        thClass += ' ' + styles['col_' + colKey];
+    }
+    return (
+        <th key={header} className={thClass}>{header.replace(/▲▼/, "").replace(/_/g, " ").trim()}</th>
+    );
+}
+
+// Render table cell
+function renderTableCell(row: Record<string, string>, header: string, viewMode: string) {
+    const val = row[header];
+    let tdClass = styles.wrapCell;
+    if (viewMode !== 'expanded') {
+        const colKey = header.toLowerCase().replace(/\s+/g, '-');
+        tdClass += ' ' + styles['col_' + colKey];
+    }
+    if (/fire/i.test(header)) return <td key={header} className={tdClass}>{renderFire(val)}</td>;
+    if (/gmp/i.test(header) || (/%/.test(val || "") && !/name/i.test(header))) return <td key={header} className={tdClass}>{renderGmpValue(val)}</td>;
+    if (DATE_COLUMNS.some(col => header.toLowerCase().includes(col.toLowerCase())) && val) {
+        return <td key={header} className={tdClass}>{renderDate(val)}</td>;
+    }
+    if (/date/i.test(header) && val) return <td key={header} className={tdClass}>{val}</td>;
+    if (header.toLowerCase().includes("name")) return <td key={header} className={tdClass}>{renderNameCell(val)}</td>;
+    if (!val || val === "") return <td key={header} className={tdClass}>—</td>;
+    return <td key={header} className={tdClass}>{val}</td>;
+}
+
+// Render table row
+function renderTableRow(row: Record<string, string>, i: number, cleanHeaders: string[], visibleHeaders: string[], viewMode: string) {
+    const fireCount = getFireCount(row, cleanHeaders);
+    const fireClass = getFireRowClass(fireCount);
+    return (
+        <tr key={i} className={`${i % 2 === 0 ? styles.evenRow : styles.oddRow} ${fireClass}`}>
+            {visibleHeaders.map((header) => renderTableCell(row, header, viewMode))}
+        </tr>
+    );
+}
 
 interface GMPTableProps {
     headers: string[];
@@ -229,44 +279,11 @@ const GMPTableGmp: React.FC<GMPTableProps> = ({ headers, rows }) => {
             <table className={styles.gmpTable + (viewMode !== 'expanded' ? ' ' + styles.compactTable : '') + (viewMode === 'highly_compact' ? ' ' + styles.highlyCompactTable : '')}>
                 <thead>
                     <tr>
-                        {visibleHeaders.map((header) => {
-                            let thClass = styles.wrapCell;
-                            if (viewMode !== 'expanded') {
-                                const colKey = header.toLowerCase().replace(/\s+/g, '-');
-                                thClass += ' ' + styles['col_' + colKey];
-                            }
-                            return (
-                                <th key={header} className={thClass}>{header.replace(/▲▼/, "").replace(/_/g, " ").trim()}</th>
-                            );
-                        })}
+                        {visibleHeaders.map(header => renderHeaderCell(header, viewMode))}
                     </tr>
                 </thead>
                 <tbody>
-                    {rows.map((row, i) => {
-                        const fireCount = getFireCount(row, cleanHeaders);
-                        const fireClass = getFireRowClass(fireCount);
-                        return (
-                            <tr key={i} className={`${i % 2 === 0 ? styles.evenRow : styles.oddRow} ${fireClass}`}>
-                                {visibleHeaders.map((header) => {
-                                    const val = row[header];
-                                    let tdClass = styles.wrapCell;
-                                    if (viewMode !== 'expanded') {
-                                        const colKey = header.toLowerCase().replace(/\s+/g, '-');
-                                        tdClass += ' ' + styles['col_' + colKey];
-                                    }
-                                    if (/fire/i.test(header)) return <td key={header} className={tdClass}>{renderFire(val)}</td>;
-                                    if (/gmp/i.test(header) || (/%/.test(val || "") && !/name/i.test(header))) return <td key={header} className={tdClass}>{renderGmpValue(val)}</td>;
-                                    if (DATE_COLUMNS.some(col => header.toLowerCase().includes(col.toLowerCase())) && val) {
-                                        return <td key={header} className={tdClass}>{renderDate(val)}</td>;
-                                    }
-                                    if (/date/i.test(header) && val) return <td key={header} className={tdClass}>{val}</td>;
-                                    if (header.toLowerCase().includes("name")) return <td key={header} className={tdClass}>{renderNameCell(val)}</td>;
-                                    if (!val || val === "") return <td key={header} className={tdClass}>—</td>;
-                                    return <td key={header} className={tdClass}>{val}</td>;
-                                })}
-                            </tr>
-                        );
-                    })}
+                    {rows.map((row, i) => renderTableRow(row, i, cleanHeaders, visibleHeaders, viewMode))}
                 </tbody>
             </table>
         </div>
