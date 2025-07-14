@@ -1,22 +1,6 @@
 {
   "allGMP": [
     {
-      "Name▲▼": "PropShare Titania IPO U",
-      "GMP▲▼": "₹-- (%)",
-      "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "",
-      "Price▲▼": "10,60,000",
-      "Est Listing▲▼": "--",
-      "IPO Size▲▼": "₹473.00 Cr",
-      "Lot▲▼": "1",
-      "Open▲▼": "21-Jul",
-      "Close▲▼": "25-Jul",
-      "BoA Dt▲▼": "30-Jul",
-      "Listing▲▼": "4-Aug",
-      "GMP Updated▲▼": "14-Jul 9:07",
-      "": ""
-    },
-    {
       "Name▲▼": "NSDL IPO U",
       "GMP▲▼": "₹-- (0.00%)",
       "Fire Rating▲▼": "🔥",
@@ -33,6 +17,22 @@
       "": ""
     },
     {
+      "Name▲▼": "PropShare Titania IPO U",
+      "GMP▲▼": "₹-- (%)",
+      "Fire Rating▲▼": "🔥",
+      "Sub▲▼": "",
+      "Price▲▼": "10,60,000",
+      "Est Listing▲▼": "--",
+      "IPO Size▲▼": "₹473.00 Cr",
+      "Lot▲▼": "1",
+      "Open▲▼": "21-Jul",
+      "Close▲▼": "25-Jul",
+      "BoA Dt▲▼": "30-Jul",
+      "Listing▲▼": "4-Aug",
+      "GMP Updated▲▼": "14-Jul 9:07",
+      "": ""
+    },
+    {
       "Name▲▼": "Monika Alcobev BSE SME U",
       "GMP▲▼": "₹-- (0.00%)",
       "Fire Rating▲▼": "🔥",
@@ -45,14 +45,14 @@
       "Close▲▼": "18-Jul",
       "BoA Dt▲▼": "21-Jul",
       "Listing▲▼": "23-Jul",
-      "GMP Updated▲▼": "14-Jul 10:59",
+      "GMP Updated▲▼": "14-Jul 11:55",
       "": ""
     },
     {
       "Name▲▼": "Spunweb Nonwoven NSE SME O",
       "GMP▲▼": "₹35 (36.46%)",
       "Fire Rating▲▼": "🔥🔥🔥🔥",
-      "Sub▲▼": "1.02x",
+      "Sub▲▼": "2.09x",
       "Price▲▼": "96",
       "Est Listing▲▼": "131 (36.46%)",
       "IPO Size▲▼": "₹57.89 Cr",
@@ -61,30 +61,30 @@
       "Close▲▼": "16-Jul",
       "BoA Dt▲▼": "17-Jul",
       "Listing▲▼": "21-Jul",
-      "GMP Updated▲▼": "14-Jul 10:55",
+      "GMP Updated▲▼": "14-Jul 11:59",
       "": ""
     },
     {
       "Name▲▼": "Anthem Biosciences IPO O",
-      "GMP▲▼": "₹109 (19.12%)",
+      "GMP▲▼": "₹105 (18.42%)",
       "Fire Rating▲▼": "🔥🔥🔥",
-      "Sub▲▼": "0.11x",
+      "Sub▲▼": "0.2x",
       "Price▲▼": "570",
-      "Est Listing▲▼": "679 (19.12%)",
+      "Est Listing▲▼": "675 (18.42%)",
       "IPO Size▲▼": "₹3395.00 Cr",
       "Lot▲▼": "26",
       "Open▲▼": "14-Jul",
       "Close▲▼": "16-Jul",
       "BoA Dt▲▼": "17-Jul",
       "Listing▲▼": "21-Jul",
-      "GMP Updated▲▼": "14-Jul 10:59",
+      "GMP Updated▲▼": "14-Jul 11:57",
       "": ""
     },
     {
       "Name▲▼": "Smartworks Coworking IPO CT",
       "GMP▲▼": "₹20 (4.91%)",
       "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "1.71x",
+      "Sub▲▼": "2x",
       "Price▲▼": "407",
       "Est Listing▲▼": "427 (4.91%)",
       "IPO Size▲▼": "₹582.56 Cr",
@@ -93,7 +93,7 @@
       "Close▲▼": "14-Jul",
       "BoA Dt▲▼": "15-Jul",
       "Listing▲▼": "17-Jul",
-      "GMP Updated▲▼": "14-Jul 10:55",
+      "GMP Updated▲▼": "14-Jul 11:53",
       "": ""
     },
     {
@@ -109,7 +109,7 @@
       "Close▲▼": "11-Jul",
       "BoA Dt▲▼": "14-Jul",
       "Listing▲▼": "16-Jul",
-      "GMP Updated▲▼": "14-Jul 10:59",
+      "GMP Updated▲▼": "14-Jul 12:00",
       "": ""
     },
     {
@@ -125,7 +125,7 @@
       "Close▲▼": "11-Jul",
       "BoA Dt▲▼": "14-Jul",
       "Listing▲▼": "16-Jul",
-      "GMP Updated▲▼": "14-Jul 11:01",
+      "GMP Updated▲▼": "14-Jul 11:59",
       "": ""
     },
     {
@@ -141,7 +141,7 @@
       "Close▲▼": "10-Jul",
       "BoA Dt▲▼": "11-Jul",
       "Listing▲▼": "15-Jul",
-      "GMP Updated▲▼": "14-Jul 11:00",
+      "GMP Updated▲▼": "14-Jul 12:02",
       "": ""
     },
     {
@@ -563,22 +563,6 @@
   ],
   "mainboardGMP": [
     {
-      "Name▲▼": "PropShare Titania IPO U",
-      "GMP▲▼": "₹-- (%)",
-      "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "",
-      "Price▲▼": "10,60,000",
-      "Est Listing▲▼": "--",
-      "IPO Size▲▼": "₹473.00 Cr",
-      "Lot▲▼": "1",
-      "Open▲▼": "21-Jul",
-      "Close▲▼": "25-Jul",
-      "BoA Dt▲▼": "30-Jul",
-      "Listing▲▼": "4-Aug",
-      "GMP Updated▲▼": "14-Jul 9:07",
-      "": ""
-    },
-    {
       "Name▲▼": "NSDL IPO U",
       "GMP▲▼": "₹-- (0.00%)",
       "Fire Rating▲▼": "🔥",
@@ -595,26 +579,42 @@
       "": ""
     },
     {
+      "Name▲▼": "PropShare Titania IPO U",
+      "GMP▲▼": "₹-- (%)",
+      "Fire Rating▲▼": "🔥",
+      "Sub▲▼": "",
+      "Price▲▼": "10,60,000",
+      "Est Listing▲▼": "--",
+      "IPO Size▲▼": "₹473.00 Cr",
+      "Lot▲▼": "1",
+      "Open▲▼": "21-Jul",
+      "Close▲▼": "25-Jul",
+      "BoA Dt▲▼": "30-Jul",
+      "Listing▲▼": "4-Aug",
+      "GMP Updated▲▼": "14-Jul 9:07",
+      "": ""
+    },
+    {
       "Name▲▼": "Anthem Biosciences IPO O",
-      "GMP▲▼": "₹109 (19.12%)",
+      "GMP▲▼": "₹105 (18.42%)",
       "Fire Rating▲▼": "🔥🔥🔥",
-      "Sub▲▼": "0.11x",
+      "Sub▲▼": "0.2x",
       "Price▲▼": "570",
-      "Est Listing▲▼": "679 (19.12%)",
+      "Est Listing▲▼": "675 (18.42%)",
       "IPO Size▲▼": "₹3395.00 Cr",
       "Lot▲▼": "26",
       "Open▲▼": "14-Jul",
       "Close▲▼": "16-Jul",
       "BoA Dt▲▼": "17-Jul",
       "Listing▲▼": "21-Jul",
-      "GMP Updated▲▼": "14-Jul 10:59",
+      "GMP Updated▲▼": "14-Jul 11:57",
       "": ""
     },
     {
       "Name▲▼": "Smartworks Coworking IPO CT",
       "GMP▲▼": "₹20 (4.91%)",
       "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "1.71x",
+      "Sub▲▼": "2x",
       "Price▲▼": "407",
       "Est Listing▲▼": "427 (4.91%)",
       "IPO Size▲▼": "₹582.56 Cr",
@@ -623,7 +623,7 @@
       "Close▲▼": "14-Jul",
       "BoA Dt▲▼": "15-Jul",
       "Listing▲▼": "17-Jul",
-      "GMP Updated▲▼": "14-Jul 10:55",
+      "GMP Updated▲▼": "14-Jul 11:53",
       "": ""
     },
     {
@@ -705,14 +705,14 @@
       "Close▲▼": "18-Jul",
       "BoA Dt▲▼": "21-Jul",
       "Listing▲▼": "23-Jul",
-      "GMP Updated▲▼": "14-Jul 10:59",
+      "GMP Updated▲▼": "14-Jul 11:55",
       "": ""
     },
     {
       "Name▲▼": "Spunweb Nonwoven NSE SME O",
       "GMP▲▼": "₹35 (36.46%)",
       "Fire Rating▲▼": "🔥🔥🔥🔥",
-      "Sub▲▼": "1.02x",
+      "Sub▲▼": "2.09x",
       "Price▲▼": "96",
       "Est Listing▲▼": "131 (36.46%)",
       "IPO Size▲▼": "₹57.89 Cr",
@@ -721,7 +721,7 @@
       "Close▲▼": "16-Jul",
       "BoA Dt▲▼": "17-Jul",
       "Listing▲▼": "21-Jul",
-      "GMP Updated▲▼": "14-Jul 10:55",
+      "GMP Updated▲▼": "14-Jul 11:59",
       "": ""
     },
     {
@@ -737,7 +737,7 @@
       "Close▲▼": "11-Jul",
       "BoA Dt▲▼": "14-Jul",
       "Listing▲▼": "16-Jul",
-      "GMP Updated▲▼": "14-Jul 10:59",
+      "GMP Updated▲▼": "14-Jul 12:00",
       "": ""
     },
     {
@@ -753,7 +753,7 @@
       "Close▲▼": "11-Jul",
       "BoA Dt▲▼": "14-Jul",
       "Listing▲▼": "16-Jul",
-      "GMP Updated▲▼": "14-Jul 11:01",
+      "GMP Updated▲▼": "14-Jul 11:59",
       "": ""
     },
     {
@@ -769,7 +769,7 @@
       "Close▲▼": "10-Jul",
       "BoA Dt▲▼": "11-Jul",
       "Listing▲▼": "15-Jul",
-      "GMP Updated▲▼": "14-Jul 11:00",
+      "GMP Updated▲▼": "14-Jul 12:02",
       "": ""
     },
     {
@@ -1127,22 +1127,6 @@
   ],
   "currentGMP": [
     {
-      "Name▲▼": "PropShare Titania IPO U",
-      "GMP▲▼": "₹-- (%)",
-      "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "",
-      "Price▲▼": "10,60,000",
-      "Est Listing▲▼": "--",
-      "IPO Size▲▼": "₹473.00 Cr",
-      "Lot▲▼": "1",
-      "Open▲▼": "21-Jul",
-      "Close▲▼": "25-Jul",
-      "BoA Dt▲▼": "30-Jul",
-      "Listing▲▼": "4-Aug",
-      "GMP Updated▲▼": "14-Jul 9:07",
-      "": ""
-    },
-    {
       "Name▲▼": "NSDL IPO U",
       "GMP▲▼": "₹-- (0.00%)",
       "Fire Rating▲▼": "🔥",
@@ -1159,6 +1143,22 @@
       "": ""
     },
     {
+      "Name▲▼": "PropShare Titania IPO U",
+      "GMP▲▼": "₹-- (%)",
+      "Fire Rating▲▼": "🔥",
+      "Sub▲▼": "",
+      "Price▲▼": "10,60,000",
+      "Est Listing▲▼": "--",
+      "IPO Size▲▼": "₹473.00 Cr",
+      "Lot▲▼": "1",
+      "Open▲▼": "21-Jul",
+      "Close▲▼": "25-Jul",
+      "BoA Dt▲▼": "30-Jul",
+      "Listing▲▼": "4-Aug",
+      "GMP Updated▲▼": "14-Jul 9:07",
+      "": ""
+    },
+    {
       "Name▲▼": "Monika Alcobev BSE SME U",
       "GMP▲▼": "₹-- (0.00%)",
       "Fire Rating▲▼": "🔥",
@@ -1171,14 +1171,14 @@
       "Close▲▼": "18-Jul",
       "BoA Dt▲▼": "21-Jul",
       "Listing▲▼": "23-Jul",
-      "GMP Updated▲▼": "14-Jul 10:59",
+      "GMP Updated▲▼": "14-Jul 11:55",
       "": ""
     },
     {
       "Name▲▼": "Spunweb Nonwoven NSE SME O",
       "GMP▲▼": "₹35 (36.46%)",
       "Fire Rating▲▼": "🔥🔥🔥🔥",
-      "Sub▲▼": "1.02x",
+      "Sub▲▼": "2.09x",
       "Price▲▼": "96",
       "Est Listing▲▼": "131 (36.46%)",
       "IPO Size▲▼": "₹57.89 Cr",
@@ -1187,30 +1187,30 @@
       "Close▲▼": "16-Jul",
       "BoA Dt▲▼": "17-Jul",
       "Listing▲▼": "21-Jul",
-      "GMP Updated▲▼": "14-Jul 10:55",
+      "GMP Updated▲▼": "14-Jul 11:59",
       "": ""
     },
     {
       "Name▲▼": "Anthem Biosciences IPO O",
-      "GMP▲▼": "₹109 (19.12%)",
+      "GMP▲▼": "₹105 (18.42%)",
       "Fire Rating▲▼": "🔥🔥🔥",
-      "Sub▲▼": "0.11x",
+      "Sub▲▼": "0.2x",
       "Price▲▼": "570",
-      "Est Listing▲▼": "679 (19.12%)",
+      "Est Listing▲▼": "675 (18.42%)",
       "IPO Size▲▼": "₹3395.00 Cr",
       "Lot▲▼": "26",
       "Open▲▼": "14-Jul",
       "Close▲▼": "16-Jul",
       "BoA Dt▲▼": "17-Jul",
       "Listing▲▼": "21-Jul",
-      "GMP Updated▲▼": "14-Jul 10:59",
+      "GMP Updated▲▼": "14-Jul 11:57",
       "": ""
     },
     {
       "Name▲▼": "Smartworks Coworking IPO CT",
       "GMP▲▼": "₹20 (4.91%)",
       "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "1.71x",
+      "Sub▲▼": "2x",
       "Price▲▼": "407",
       "Est Listing▲▼": "427 (4.91%)",
       "IPO Size▲▼": "₹582.56 Cr",
@@ -1219,11 +1219,24 @@
       "Close▲▼": "14-Jul",
       "BoA Dt▲▼": "15-Jul",
       "Listing▲▼": "17-Jul",
-      "GMP Updated▲▼": "14-Jul 10:55",
+      "GMP Updated▲▼": "14-Jul 11:53",
       "": ""
     }
   ],
   "allPerf": [
+    {
+      "IPO▲▼": "Chemkart India BSE SME (544442)",
+      "Listing Date▲▼": "14-Jul-2025",
+      "IPO_Size▲▼": "75.96",
+      "Subscription▲▼": "5.91x",
+      "GMP▲▼": "₹31🔥Hot inbox",
+      "IPO Price▲▼": "₹ 248.00",
+      "Estimated Price▲▼": "₹ 251 (1.21%)",
+      "Listing Price▲▼": "250.00 (0.81%)",
+      "Closing Price▲▼": "",
+      "LTP▲▼": "",
+      "": ""
+    },
     {
       "IPO▲▼": "Smarten Power Systems NSE SME (SMARTEN)",
       "Listing Date▲▼": "14-Jul-2025",
@@ -1232,7 +1245,7 @@
       "GMP▲▼": "₹153🔥Hot inbox",
       "IPO Price▲▼": "₹ 100.00",
       "Estimated Price▲▼": "₹ 115 (15.00%)",
-      "Listing Price▲▼": "",
+      "Listing Price▲▼": "144.00 (44%)",
       "Closing Price▲▼": "",
       "LTP▲▼": "",
       "": ""
@@ -1245,20 +1258,7 @@
       "GMP▲▼": "₹251🔥Hot inbox",
       "IPO Price▲▼": "₹ 1100.00",
       "Estimated Price▲▼": "₹ 1125 (2.27%)",
-      "Listing Price▲▼": "",
-      "Closing Price▲▼": "",
-      "LTP▲▼": "",
-      "": ""
-    },
-    {
-      "IPO▲▼": "Chemkart India BSE SME (544442)",
-      "Listing Date▲▼": "14-Jul-2025",
-      "IPO_Size▲▼": "75.96",
-      "Subscription▲▼": "5.91x",
-      "GMP▲▼": "₹31🔥Hot inbox",
-      "IPO Price▲▼": "₹ 248.00",
-      "Estimated Price▲▼": "₹ 251 (1.21%)",
-      "Listing Price▲▼": "",
+      "Listing Price▲▼": "1125.00 (2.27%)",
       "Closing Price▲▼": "",
       "LTP▲▼": "",
       "": ""
@@ -3022,13 +3022,13 @@
   "allSub": [
     {
       "Name▲▼": "Spunweb Nonwoven NSE SME OGMP:₹35 (36.46%)",
-      "Total▲▼": "1.02x",
-      "BID Date▲▼": "14th Jul 11:04",
+      "Total▲▼": "2.09x",
+      "BID Date▲▼": "14th Jul 12:06",
       "QIB▲▼": "0x",
       "SHNI▲▼": "",
       "BHNI▲▼": "",
-      "NII▲▼": "0.56x",
-      "RII▲▼": "1.81x",
+      "NII▲▼": "1.28x",
+      "RII▲▼": "3.63x",
       "IPO Size▲▼": "₹57.89 Cr",
       "IPO Price▲▼": "96",
       "Lot▲▼": "1,200",
@@ -3037,14 +3037,14 @@
       "": ""
     },
     {
-      "Name▲▼": "Anthem Biosciences IPO OGMP:₹109 (19.12%)",
-      "Total▲▼": "0.11x",
-      "BID Date▲▼": "14th Jul 11:05",
+      "Name▲▼": "Anthem Biosciences IPO OGMP:₹105 (18.42%)",
+      "Total▲▼": "0.2x",
+      "BID Date▲▼": "14th Jul 12:05",
       "QIB▲▼": "0x",
-      "SHNI▲▼": "0.27x",
-      "BHNI▲▼": "0.16x",
-      "NII▲▼": "0.19x",
-      "RII▲▼": "0.14x",
+      "SHNI▲▼": "0.52x",
+      "BHNI▲▼": "0.3x",
+      "NII▲▼": "0.37x",
+      "RII▲▼": "0.23x",
       "IPO Size▲▼": "₹3395.00 Cr",
       "IPO Price▲▼": "570",
       "Lot▲▼": "26",
@@ -3054,13 +3054,13 @@
     },
     {
       "Name▲▼": "Smartworks Coworking IPO CTGMP:₹20 (4.91%)",
-      "Total▲▼": "1.71x",
-      "BID Date▲▼": "14th Jul 11:05",
-      "QIB▲▼": "0.65x",
-      "SHNI▲▼": "2.67x",
-      "BHNI▲▼": "3.34x",
-      "NII▲▼": "3.12x",
-      "RII▲▼": "1.72x",
+      "Total▲▼": "2x",
+      "BID Date▲▼": "14th Jul 12:05",
+      "QIB▲▼": "0.66x",
+      "SHNI▲▼": "3.39x",
+      "BHNI▲▼": "4.28x",
+      "NII▲▼": "3.98x",
+      "RII▲▼": "1.92x",
       "IPO Size▲▼": "₹582.56 Cr",
       "IPO Price▲▼": "407",
       "Lot▲▼": "36",
