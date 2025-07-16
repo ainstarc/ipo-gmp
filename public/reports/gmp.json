@@ -1,6 +1,22 @@
 {
   "allGMP": [
     {
+      "Name▲▼": "Swastika Castal BSE SME U",
+      "GMP▲▼": "₹-- (%)",
+      "Fire Rating▲▼": "🔥",
+      "Sub▲▼": "",
+      "Price▲▼": "",
+      "Est Listing▲▼": "--",
+      "IPO Size▲▼": "₹13.35 Cr",
+      "Lot▲▼": "2,000",
+      "Open▲▼": "21-Jul",
+      "Close▲▼": "23-Jul",
+      "BoA Dt▲▼": "24-Jul",
+      "Listing▲▼": "28-Jul",
+      "GMP Updated▲▼": "16-Jul 11:07",
+      "": ""
+    },
+    {
       "Name▲▼": "NSDL IPO U",
       "GMP▲▼": "₹-- (0.00%)",
       "Fire Rating▲▼": "🔥",
@@ -45,14 +61,14 @@
       "Close▲▼": "23-Jul",
       "BoA Dt▲▼": "24-Jul",
       "Listing▲▼": "28-Jul",
-      "GMP Updated▲▼": "16-Jul 9:37",
+      "GMP Updated▲▼": "16-Jul 10:35",
       "": ""
     },
     {
       "Name▲▼": "Monika Alcobev BSE SME O",
       "GMP▲▼": "₹-- (0.00%)",
       "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "",
+      "Sub▲▼": "0.4x",
       "Price▲▼": "286",
       "Est Listing▲▼": "286 (0%)",
       "IPO Size▲▼": "₹153.68 Cr",
@@ -61,14 +77,14 @@
       "Close▲▼": "18-Jul",
       "BoA Dt▲▼": "21-Jul",
       "Listing▲▼": "23-Jul",
-      "GMP Updated▲▼": "16-Jul 9:35",
+      "GMP Updated▲▼": "16-Jul 10:35",
       "": ""
     },
     {
       "Name▲▼": "Spunweb Nonwoven NSE SME CT",
       "GMP▲▼": "₹42 (43.75%)",
       "Fire Rating▲▼": "🔥🔥🔥🔥",
-      "Sub▲▼": "48.06x",
+      "Sub▲▼": "76.74x",
       "Price▲▼": "96",
       "Est Listing▲▼": "138 (43.75%)",
       "IPO Size▲▼": "₹57.89 Cr",
@@ -77,23 +93,23 @@
       "Close▲▼": "16-Jul",
       "BoA Dt▲▼": "17-Jul",
       "Listing▲▼": "21-Jul",
-      "GMP Updated▲▼": "16-Jul 9:34",
+      "GMP Updated▲▼": "16-Jul 10:34",
       "": ""
     },
     {
       "Name▲▼": "Anthem Biosciences IPO CT",
-      "GMP▲▼": "₹156 (27.37%)",
+      "GMP▲▼": "₹150 (26.32%)",
       "Fire Rating▲▼": "🔥🔥🔥🔥",
-      "Sub▲▼": "3.66x",
+      "Sub▲▼": "6.4x",
       "Price▲▼": "570",
-      "Est Listing▲▼": "726 (27.37%)",
+      "Est Listing▲▼": "720 (26.32%)",
       "IPO Size▲▼": "₹3395.00 Cr",
       "Lot▲▼": "26",
       "Open▲▼": "14-Jul",
       "Close▲▼": "16-Jul",
       "BoA Dt▲▼": "17-Jul",
       "Listing▲▼": "21-Jul",
-      "GMP Updated▲▼": "16-Jul 9:33",
+      "GMP Updated▲▼": "16-Jul 10:36",
       "": ""
     },
     {
@@ -109,7 +125,7 @@
       "Close▲▼": "14-Jul",
       "BoA Dt▲▼": "15-Jul",
       "Listing▲▼": "17-Jul",
-      "GMP Updated▲▼": "16-Jul 9:31",
+      "GMP Updated▲▼": "16-Jul 10:37",
       "": ""
     },
     {
@@ -125,7 +141,7 @@
       "Close▲▼": "11-Jul",
       "BoA Dt▲▼": "14-Jul",
       "Listing▲▼": "16-Jul",
-      "GMP Updated▲▼": "16-Jul 9:36",
+      "GMP Updated▲▼": "16-Jul 10:29",
       "": ""
     },
     {
@@ -543,22 +559,6 @@
       "Listing▲▼": "1-Jul",
       "GMP Updated▲▼": "1-Jul 9:28",
       "": ""
-    },
-    {
-      "Name▲▼": "Ellenbarrie Industrial Gases IPO L@486.00 (21.5%)",
-      "GMP▲▼": "₹57 (14.25%)",
-      "Fire Rating▲▼": "🔥🔥🔥",
-      "Sub▲▼": "17.37x",
-      "Price▲▼": "400",
-      "Est Listing▲▼": "457 (14.25%)",
-      "IPO Size▲▼": "₹852.53 Cr",
-      "Lot▲▼": "37",
-      "Open▲▼": "24-Jun",
-      "Close▲▼": "26-Jun",
-      "BoA Dt▲▼": "27-Jun",
-      "Listing▲▼": "1-Jul",
-      "GMP Updated▲▼": "1-Jul 5:55",
-      "": ""
     }
   ],
   "mainboardGMP": [
@@ -596,18 +596,18 @@
     },
     {
       "Name▲▼": "Anthem Biosciences IPO CT",
-      "GMP▲▼": "₹156 (27.37%)",
+      "GMP▲▼": "₹150 (26.32%)",
       "Fire Rating▲▼": "🔥🔥🔥🔥",
-      "Sub▲▼": "3.66x",
+      "Sub▲▼": "6.4x",
       "Price▲▼": "570",
-      "Est Listing▲▼": "726 (27.37%)",
+      "Est Listing▲▼": "720 (26.32%)",
       "IPO Size▲▼": "₹3395.00 Cr",
       "Lot▲▼": "26",
       "Open▲▼": "14-Jul",
       "Close▲▼": "16-Jul",
       "BoA Dt▲▼": "17-Jul",
       "Listing▲▼": "21-Jul",
-      "GMP Updated▲▼": "16-Jul 9:33",
+      "GMP Updated▲▼": "16-Jul 10:36",
       "": ""
     },
     {
@@ -623,7 +623,7 @@
       "Close▲▼": "14-Jul",
       "BoA Dt▲▼": "15-Jul",
       "Listing▲▼": "17-Jul",
-      "GMP Updated▲▼": "16-Jul 9:31",
+      "GMP Updated▲▼": "16-Jul 10:37",
       "": ""
     },
     {
@@ -705,25 +705,25 @@
       "Listing▲▼": "1-Jul",
       "GMP Updated▲▼": "1-Jul 9:28",
       "": ""
-    },
-    {
-      "Name▲▼": "Ellenbarrie Industrial Gases IPO L@486.00 (21.5%)",
-      "GMP▲▼": "₹57 (14.25%)",
-      "Fire Rating▲▼": "🔥🔥🔥",
-      "Sub▲▼": "17.37x",
-      "Price▲▼": "400",
-      "Est Listing▲▼": "457 (14.25%)",
-      "IPO Size▲▼": "₹852.53 Cr",
-      "Lot▲▼": "37",
-      "Open▲▼": "24-Jun",
-      "Close▲▼": "26-Jun",
-      "BoA Dt▲▼": "27-Jun",
-      "Listing▲▼": "1-Jul",
-      "GMP Updated▲▼": "1-Jul 5:55",
-      "": ""
     }
   ],
   "smeGMP": [
+    {
+      "Name▲▼": "Swastika Castal BSE SME U",
+      "GMP▲▼": "₹-- (%)",
+      "Fire Rating▲▼": "🔥",
+      "Sub▲▼": "",
+      "Price▲▼": "",
+      "Est Listing▲▼": "--",
+      "IPO Size▲▼": "₹13.35 Cr",
+      "Lot▲▼": "2,000",
+      "Open▲▼": "21-Jul",
+      "Close▲▼": "23-Jul",
+      "BoA Dt▲▼": "24-Jul",
+      "Listing▲▼": "28-Jul",
+      "GMP Updated▲▼": "16-Jul 11:07",
+      "": ""
+    },
     {
       "Name▲▼": "Savy Infra NSE SME U",
       "GMP▲▼": "₹-- (0.00%)",
@@ -737,14 +737,14 @@
       "Close▲▼": "23-Jul",
       "BoA Dt▲▼": "24-Jul",
       "Listing▲▼": "28-Jul",
-      "GMP Updated▲▼": "16-Jul 9:37",
+      "GMP Updated▲▼": "16-Jul 10:35",
       "": ""
     },
     {
       "Name▲▼": "Monika Alcobev BSE SME O",
       "GMP▲▼": "₹-- (0.00%)",
       "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "",
+      "Sub▲▼": "0.4x",
       "Price▲▼": "286",
       "Est Listing▲▼": "286 (0%)",
       "IPO Size▲▼": "₹153.68 Cr",
@@ -753,14 +753,14 @@
       "Close▲▼": "18-Jul",
       "BoA Dt▲▼": "21-Jul",
       "Listing▲▼": "23-Jul",
-      "GMP Updated▲▼": "16-Jul 9:35",
+      "GMP Updated▲▼": "16-Jul 10:35",
       "": ""
     },
     {
       "Name▲▼": "Spunweb Nonwoven NSE SME CT",
       "GMP▲▼": "₹42 (43.75%)",
       "Fire Rating▲▼": "🔥🔥🔥🔥",
-      "Sub▲▼": "48.06x",
+      "Sub▲▼": "76.74x",
       "Price▲▼": "96",
       "Est Listing▲▼": "138 (43.75%)",
       "IPO Size▲▼": "₹57.89 Cr",
@@ -769,7 +769,7 @@
       "Close▲▼": "16-Jul",
       "BoA Dt▲▼": "17-Jul",
       "Listing▲▼": "21-Jul",
-      "GMP Updated▲▼": "16-Jul 9:34",
+      "GMP Updated▲▼": "16-Jul 10:34",
       "": ""
     },
     {
@@ -785,7 +785,7 @@
       "Close▲▼": "11-Jul",
       "BoA Dt▲▼": "14-Jul",
       "Listing▲▼": "16-Jul",
-      "GMP Updated▲▼": "16-Jul 9:36",
+      "GMP Updated▲▼": "16-Jul 10:29",
       "": ""
     },
     {
@@ -1127,6 +1127,22 @@
   ],
   "currentGMP": [
     {
+      "Name▲▼": "Swastika Castal BSE SME U",
+      "GMP▲▼": "₹-- (%)",
+      "Fire Rating▲▼": "🔥",
+      "Sub▲▼": "",
+      "Price▲▼": "",
+      "Est Listing▲▼": "--",
+      "IPO Size▲▼": "₹13.35 Cr",
+      "Lot▲▼": "2,000",
+      "Open▲▼": "21-Jul",
+      "Close▲▼": "23-Jul",
+      "BoA Dt▲▼": "24-Jul",
+      "Listing▲▼": "28-Jul",
+      "GMP Updated▲▼": "16-Jul 11:07",
+      "": ""
+    },
+    {
       "Name▲▼": "NSDL IPO U",
       "GMP▲▼": "₹-- (0.00%)",
       "Fire Rating▲▼": "🔥",
@@ -1171,14 +1187,14 @@
       "Close▲▼": "23-Jul",
       "BoA Dt▲▼": "24-Jul",
       "Listing▲▼": "28-Jul",
-      "GMP Updated▲▼": "16-Jul 9:37",
+      "GMP Updated▲▼": "16-Jul 10:35",
       "": ""
     },
     {
       "Name▲▼": "Monika Alcobev BSE SME O",
       "GMP▲▼": "₹-- (0.00%)",
       "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "",
+      "Sub▲▼": "0.4x",
       "Price▲▼": "286",
       "Est Listing▲▼": "286 (0%)",
       "IPO Size▲▼": "₹153.68 Cr",
@@ -1187,14 +1203,14 @@
       "Close▲▼": "18-Jul",
       "BoA Dt▲▼": "21-Jul",
       "Listing▲▼": "23-Jul",
-      "GMP Updated▲▼": "16-Jul 9:35",
+      "GMP Updated▲▼": "16-Jul 10:35",
       "": ""
     },
     {
       "Name▲▼": "Spunweb Nonwoven NSE SME CT",
       "GMP▲▼": "₹42 (43.75%)",
       "Fire Rating▲▼": "🔥🔥🔥🔥",
-      "Sub▲▼": "48.06x",
+      "Sub▲▼": "76.74x",
       "Price▲▼": "96",
       "Est Listing▲▼": "138 (43.75%)",
       "IPO Size▲▼": "₹57.89 Cr",
@@ -1203,23 +1219,23 @@
       "Close▲▼": "16-Jul",
       "BoA Dt▲▼": "17-Jul",
       "Listing▲▼": "21-Jul",
-      "GMP Updated▲▼": "16-Jul 9:34",
+      "GMP Updated▲▼": "16-Jul 10:34",
       "": ""
     },
     {
       "Name▲▼": "Anthem Biosciences IPO CT",
-      "GMP▲▼": "₹156 (27.37%)",
+      "GMP▲▼": "₹150 (26.32%)",
       "Fire Rating▲▼": "🔥🔥🔥🔥",
-      "Sub▲▼": "3.66x",
+      "Sub▲▼": "6.4x",
       "Price▲▼": "570",
-      "Est Listing▲▼": "726 (27.37%)",
+      "Est Listing▲▼": "720 (26.32%)",
       "IPO Size▲▼": "₹3395.00 Cr",
       "Lot▲▼": "26",
       "Open▲▼": "14-Jul",
       "Close▲▼": "16-Jul",
       "BoA Dt▲▼": "17-Jul",
       "Listing▲▼": "21-Jul",
-      "GMP Updated▲▼": "16-Jul 9:33",
+      "GMP Updated▲▼": "16-Jul 10:36",
       "": ""
     }
   ],
@@ -1232,7 +1248,7 @@
       "GMP▲▼": "₹264🔥Hot inbox",
       "IPO Price▲▼": "₹ 123.00",
       "Estimated Price▲▼": "₹ 149 (21.14%)",
-      "Listing Price▲▼": "",
+      "Listing Price▲▼": "119.00 (-3.25%)",
       "Closing Price▲▼": "",
       "LTP▲▼": "",
       "": ""
@@ -3047,14 +3063,30 @@
   ],
   "allSub": [
     {
+      "Name▲▼": "Monika Alcobev BSE SME OGMP:₹-- (0.00%)",
+      "Total▲▼": "0.4x",
+      "BID Date▲▼": "16th Jul 11:05",
+      "QIB▲▼": "0x",
+      "SHNI▲▼": "0.07x",
+      "BHNI▲▼": "2.53x",
+      "NII▲▼": "1.71x",
+      "RII▲▼": "0.07x",
+      "IPO Size▲▼": "₹153.68 Cr",
+      "IPO Price▲▼": "286",
+      "Lot▲▼": "400",
+      "P/E▲▼": "20.61",
+      "Close Date▲▼": "18th Jul 2025",
+      "": ""
+    },
+    {
       "Name▲▼": "Spunweb Nonwoven NSE SME CTGMP:₹42 (43.75%)",
-      "Total▲▼": "48.06x",
-      "BID Date▲▼": "16th Jul 10:05",
-      "QIB▲▼": "1.66x",
+      "Total▲▼": "76.74x",
+      "BID Date▲▼": "16th Jul 11:05",
+      "QIB▲▼": "1.68x",
       "SHNI▲▼": "",
       "BHNI▲▼": "",
-      "NII▲▼": "54.37x",
-      "RII▲▼": "71.88x",
+      "NII▲▼": "111.83x",
+      "RII▲▼": "104.58x",
       "IPO Size▲▼": "₹57.89 Cr",
       "IPO Price▲▼": "96",
       "Lot▲▼": "1,200",
@@ -3063,14 +3095,14 @@
       "": ""
     },
     {
-      "Name▲▼": "Anthem Biosciences IPO CTGMP:₹156 (27.37%)",
-      "Total▲▼": "3.66x",
-      "BID Date▲▼": "16th Jul 10:05",
-      "QIB▲▼": "0.62x",
-      "SHNI▲▼": "10.27x",
-      "BHNI▲▼": "11.34x",
-      "NII▲▼": "10.98x",
-      "RII▲▼": "2.27x",
+      "Name▲▼": "Anthem Biosciences IPO CTGMP:₹150 (26.32%)",
+      "Total▲▼": "6.4x",
+      "BID Date▲▼": "16th Jul 11:05",
+      "QIB▲▼": "1.64x",
+      "SHNI▲▼": "15.24x",
+      "BHNI▲▼": "22.95x",
+      "NII▲▼": "20.38x",
+      "RII▲▼": "3.14x",
       "IPO Size▲▼": "₹3395.00 Cr",
       "IPO Price▲▼": "570",
       "Lot▲▼": "26",
@@ -3347,22 +3379,6 @@
       "IPO Price▲▼": "85",
       "Lot▲▼": "1,600",
       "P/E▲▼": "10.16",
-      "Close Date▲▼": "1st Jul 2025",
-      "": ""
-    },
-    {
-      "Name▲▼": "Neetu Yoshi BSE SME L@105.00 (40%)",
-      "Total▲▼": "128.18x",
-      "BID Date▲▼": "1st Jul 17:05",
-      "QIB▲▼": "96.36x",
-      "SHNI▲▼": "",
-      "BHNI▲▼": "",
-      "NII▲▼": "256.69x",
-      "RII▲▼": "91.21x",
-      "IPO Size▲▼": "₹73.14 Cr",
-      "IPO Price▲▼": "75",
-      "Lot▲▼": "1,600",
-      "P/E▲▼": "17.02",
       "Close Date▲▼": "1st Jul 2025",
       "": ""
     }
