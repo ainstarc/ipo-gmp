@@ -8,7 +8,7 @@
       "Price▲▼": "",
       "Est Listing▲▼": "--",
       "IPO Size▲▼": "5.01 Cr Shares",
-      "Lot▲▼": "TBD",
+      "Lot▲▼": "",
       "Open▲▼": "",
       "Close▲▼": "",
       "BoA Dt▲▼": "",
@@ -29,7 +29,7 @@
       "Close▲▼": "25-Jul",
       "BoA Dt▲▼": "28-Jul",
       "Listing▲▼": "30-Jul",
-      "GMP Updated▲▼": "18-Jul 11:56",
+      "GMP Updated▲▼": "18-Jul 12:33",
       "": ""
     },
     {
@@ -77,7 +77,7 @@
       "Close▲▼": "24-Jul",
       "BoA Dt▲▼": "25-Jul",
       "Listing▲▼": "29-Jul",
-      "GMP Updated▲▼": "18-Jul 11:54",
+      "GMP Updated▲▼": "18-Jul 12:34",
       "": ""
     },
     {
@@ -93,7 +93,7 @@
       "Close▲▼": "23-Jul",
       "BoA Dt▲▼": "24-Jul",
       "Listing▲▼": "28-Jul",
-      "GMP Updated▲▼": "18-Jul 11:54",
+      "GMP Updated▲▼": "18-Jul 12:30",
       "": ""
     },
     {
@@ -109,14 +109,14 @@
       "Close▲▼": "23-Jul",
       "BoA Dt▲▼": "24-Jul",
       "Listing▲▼": "28-Jul",
-      "GMP Updated▲▼": "18-Jul 11:57",
+      "GMP Updated▲▼": "18-Jul 12:30",
       "": ""
     },
     {
-      "Name▲▼": "Monika Alcobev BSE SME CT",
+      "Name▲▼": "Monika Alcobev BSE SME C",
       "GMP▲▼": "₹2 (0.70%)",
       "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "2.17x",
+      "Sub▲▼": "2.25x",
       "Price▲▼": "286",
       "Est Listing▲▼": "288 (0.7%)",
       "IPO Size▲▼": "₹153.68 Cr",
@@ -125,7 +125,7 @@
       "Close▲▼": "18-Jul",
       "BoA Dt▲▼": "21-Jul",
       "Listing▲▼": "23-Jul",
-      "GMP Updated▲▼": "18-Jul 11:57",
+      "GMP Updated▲▼": "18-Jul 12:33",
       "": ""
     },
     {
@@ -141,7 +141,7 @@
       "Close▲▼": "16-Jul",
       "BoA Dt▲▼": "17-Jul",
       "Listing▲▼": "21-Jul",
-      "GMP Updated▲▼": "18-Jul 11:55",
+      "GMP Updated▲▼": "18-Jul 12:37",
       "": ""
     },
     {
@@ -157,7 +157,7 @@
       "Close▲▼": "16-Jul",
       "BoA Dt▲▼": "17-Jul",
       "Listing▲▼": "21-Jul",
-      "GMP Updated▲▼": "18-Jul 12:01",
+      "GMP Updated▲▼": "18-Jul 12:34",
       "": ""
     },
     {
@@ -209,7 +209,7 @@
       "": ""
     },
     {
-      "Name▲▼": "GLEN Industries BSE SME L@157.00 (61.86%)",
+      "Name▲▼": "GLEN Industries BSE SME C",
       "GMP▲▼": "₹55 (56.70%)",
       "Fire Rating▲▼": "🔥🔥🔥🔥🔥",
       "Sub▲▼": "260.28x",
@@ -241,22 +241,6 @@
       "": ""
     },
     {
-      "Name▲▼": "Travel Food Services IPO L@1125.00 (2.27%)",
-      "GMP▲▼": "₹25 (2.27%)",
-      "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "3.03x",
-      "Price▲▼": "1,100",
-      "Est Listing▲▼": "1125 (2.27%)",
-      "IPO Size▲▼": "₹2000.00 Cr",
-      "Lot▲▼": "13",
-      "Open▲▼": "7-Jul",
-      "Close▲▼": "9-Jul",
-      "BoA Dt▲▼": "10-Jul",
-      "Listing▲▼": "14-Jul",
-      "GMP Updated▲▼": "14-Jul 9:32",
-      "": ""
-    },
-    {
       "Name▲▼": "Smarten Power Systems NSE SME L@144.00 (44%)",
       "GMP▲▼": "₹15 (15.00%)",
       "Fire Rating▲▼": "🔥🔥🔥",
@@ -270,6 +254,22 @@
       "BoA Dt▲▼": "10-Jul",
       "Listing▲▼": "14-Jul",
       "GMP Updated▲▼": "14-Jul 9:33",
+      "": ""
+    },
+    {
+      "Name▲▼": "Travel Food Services IPO L@1125.00 (2.27%)",
+      "GMP▲▼": "₹25 (2.27%)",
+      "Fire Rating▲▼": "🔥",
+      "Sub▲▼": "3.03x",
+      "Price▲▼": "1,100",
+      "Est Listing▲▼": "1125 (2.27%)",
+      "IPO Size▲▼": "₹2000.00 Cr",
+      "Lot▲▼": "13",
+      "Open▲▼": "7-Jul",
+      "Close▲▼": "9-Jul",
+      "BoA Dt▲▼": "10-Jul",
+      "Listing▲▼": "14-Jul",
+      "GMP Updated▲▼": "14-Jul 9:32",
       "": ""
     },
     {
@@ -289,22 +289,6 @@
       "": ""
     },
     {
-      "Name▲▼": "White Force NSE SME L@77.00 (1.32%)",
-      "GMP▲▼": "₹5 (6.58%)",
-      "Fire Rating▲▼": "🔥🔥",
-      "Sub▲▼": "3.58x",
-      "Price▲▼": "76",
-      "Est Listing▲▼": "81 (6.58%)",
-      "IPO Size▲▼": "₹22.06 Cr",
-      "Lot▲▼": "1,600",
-      "Open▲▼": "3-Jul",
-      "Close▲▼": "7-Jul",
-      "BoA Dt▲▼": "8-Jul",
-      "Listing▲▼": "10-Jul",
-      "GMP Updated▲▼": "10-Jul 9:34",
-      "": ""
-    },
-    {
       "Name▲▼": "Cryogenic OGS BSE SME L@89.30 (90%)",
       "GMP▲▼": "₹38 (80.85%)",
       "Fire Rating▲▼": "🔥🔥🔥🔥🔥",
@@ -318,6 +302,22 @@
       "BoA Dt▲▼": "8-Jul",
       "Listing▲▼": "10-Jul",
       "GMP Updated▲▼": "10-Jul 9:30",
+      "": ""
+    },
+    {
+      "Name▲▼": "Happy Square Outsourcing NSE SME L@77.00 (1.32%)",
+      "GMP▲▼": "₹5 (6.58%)",
+      "Fire Rating▲▼": "🔥🔥",
+      "Sub▲▼": "3.58x",
+      "Price▲▼": "76",
+      "Est Listing▲▼": "81 (6.58%)",
+      "IPO Size▲▼": "₹22.06 Cr",
+      "Lot▲▼": "1,600",
+      "Open▲▼": "3-Jul",
+      "Close▲▼": "7-Jul",
+      "BoA Dt▲▼": "8-Jul",
+      "Listing▲▼": "10-Jul",
+      "GMP Updated▲▼": "10-Jul 9:34",
       "": ""
     },
     {
@@ -369,7 +369,7 @@
       "": ""
     },
     {
-      "Name▲▼": "Cedaar Textile IPO NSE SME L@119.00 (-15%)",
+      "Name▲▼": "Cedaar Textile NSE SME L@119.00 (-15%)",
       "GMP▲▼": "₹10 (7.14%)",
       "Fire Rating▲▼": "🔥🔥",
       "Sub▲▼": "12.26x",
@@ -401,7 +401,7 @@
       "": ""
     },
     {
-      "Name▲▼": "Marc Loire BSE SME L@80.00 (-20%)",
+      "Name▲▼": "Marc Loire Fashions BSE SME L@80.00 (-20%)",
       "GMP▲▼": "₹-- (0.00%)",
       "Fire Rating▲▼": "🔥",
       "Sub▲▼": "2.61x",
@@ -414,6 +414,22 @@
       "BoA Dt▲▼": "3-Jul",
       "Listing▲▼": "7-Jul",
       "GMP Updated▲▼": "7-Jul 9:29",
+      "": ""
+    },
+    {
+      "Name▲▼": "Adcounty Media BSE SME L@130.00 (52.94%)",
+      "GMP▲▼": "₹40 (47.06%)",
+      "Fire Rating▲▼": "🔥🔥🔥🔥",
+      "Sub▲▼": "273.08x",
+      "Price▲▼": "85",
+      "Est Listing▲▼": "125 (47.06%)",
+      "IPO Size▲▼": "₹47.83 Cr",
+      "Lot▲▼": "1,600",
+      "Open▲▼": "26-Jun",
+      "Close▲▼": "1-Jul",
+      "BoA Dt▲▼": "2-Jul",
+      "Listing▲▼": "4-Jul",
+      "GMP Updated▲▼": "4-Jul 9:31",
       "": ""
     },
     {
@@ -430,38 +446,6 @@
       "BoA Dt▲▼": "2-Jul",
       "Listing▲▼": "4-Jul",
       "GMP Updated▲▼": "4-Jul 9:37",
-      "": ""
-    },
-    {
-      "Name▲▼": "Adcounty Media India BSE SME L@130.00 (52.94%)",
-      "GMP▲▼": "₹40 (47.06%)",
-      "Fire Rating▲▼": "🔥🔥🔥🔥",
-      "Sub▲▼": "273.08x",
-      "Price▲▼": "85",
-      "Est Listing▲▼": "125 (47.06%)",
-      "IPO Size▲▼": "₹47.83 Cr",
-      "Lot▲▼": "1,600",
-      "Open▲▼": "26-Jun",
-      "Close▲▼": "1-Jul",
-      "BoA Dt▲▼": "2-Jul",
-      "Listing▲▼": "4-Jul",
-      "GMP Updated▲▼": "4-Jul 9:31",
-      "": ""
-    },
-    {
-      "Name▲▼": "Ace Alpha Tech BSE SME L@81.00 (17.39%)",
-      "GMP▲▼": "₹30 (43.48%)",
-      "Fire Rating▲▼": "🔥🔥🔥🔥",
-      "Sub▲▼": "101.75x",
-      "Price▲▼": "69",
-      "Est Listing▲▼": "99 (43.48%)",
-      "IPO Size▲▼": "₹30.40 Cr",
-      "Lot▲▼": "2,000",
-      "Open▲▼": "26-Jun",
-      "Close▲▼": "30-Jun",
-      "BoA Dt▲▼": "1-Jul",
-      "Listing▲▼": "3-Jul",
-      "GMP Updated▲▼": "3-Jul 9:33",
       "": ""
     },
     {
@@ -513,6 +497,38 @@
       "": ""
     },
     {
+      "Name▲▼": "Indogulf Cropsciences IPO L@111.00 (0%)",
+      "GMP▲▼": "₹18 (16.22%)",
+      "Fire Rating▲▼": "🔥🔥🔥",
+      "Sub▲▼": "27.17x",
+      "Price▲▼": "111",
+      "Est Listing▲▼": "129 (16.22%)",
+      "IPO Size▲▼": "₹200.66 Cr",
+      "Lot▲▼": "135",
+      "Open▲▼": "26-Jun",
+      "Close▲▼": "30-Jun",
+      "BoA Dt▲▼": "1-Jul",
+      "Listing▲▼": "3-Jul",
+      "GMP Updated▲▼": "3-Jul 9:35",
+      "": ""
+    },
+    {
+      "Name▲▼": "Ace Alpha Tech BSE SME L@81.00 (17.39%)",
+      "GMP▲▼": "₹30 (43.48%)",
+      "Fire Rating▲▼": "🔥🔥🔥🔥",
+      "Sub▲▼": "101.75x",
+      "Price▲▼": "69",
+      "Est Listing▲▼": "99 (43.48%)",
+      "IPO Size▲▼": "₹30.40 Cr",
+      "Lot▲▼": "2,000",
+      "Open▲▼": "26-Jun",
+      "Close▲▼": "30-Jun",
+      "BoA Dt▲▼": "1-Jul",
+      "Listing▲▼": "3-Jul",
+      "GMP Updated▲▼": "3-Jul 9:33",
+      "": ""
+    },
+    {
       "Name▲▼": "Sambhv Steel Tubes IPO L@110.00 (34.15%)",
       "GMP▲▼": "₹14 (17.07%)",
       "Fire Rating▲▼": "🔥🔥🔥",
@@ -529,35 +545,19 @@
       "": ""
     },
     {
-      "Name▲▼": "Rama Telecom NSE SME L@72.00 (5.88%)",
-      "GMP▲▼": "₹-- (0.00%)",
-      "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "1.61x",
-      "Price▲▼": "68",
-      "Est Listing▲▼": "68 (0%)",
-      "IPO Size▲▼": "₹23.87 Cr",
-      "Lot▲▼": "2,000",
+      "Name▲▼": "HDB Financial IPO L@835.00 (12.84%)",
+      "GMP▲▼": "₹75 (10.14%)",
+      "Fire Rating▲▼": "🔥🔥🔥",
+      "Sub▲▼": "17.65x",
+      "Price▲▼": "740",
+      "Est Listing▲▼": "815 (10.14%)",
+      "IPO Size▲▼": "₹12500.00 Cr",
+      "Lot▲▼": "20",
       "Open▲▼": "25-Jun",
       "Close▲▼": "27-Jun",
       "BoA Dt▲▼": "30-Jun",
       "Listing▲▼": "2-Jul",
-      "GMP Updated▲▼": "2-Jul 9:31",
-      "": ""
-    },
-    {
-      "Name▲▼": "Suntech Infra Solutions NSE SME L@109.10 (26.86%)",
-      "GMP▲▼": "₹41 (47.67%)",
-      "Fire Rating▲▼": "🔥🔥🔥🔥",
-      "Sub▲▼": "223.64x",
-      "Price▲▼": "86",
-      "Est Listing▲▼": "127 (47.67%)",
-      "IPO Size▲▼": "₹42.16 Cr",
-      "Lot▲▼": "1,600",
-      "Open▲▼": "25-Jun",
-      "Close▲▼": "27-Jun",
-      "BoA Dt▲▼": "30-Jun",
-      "Listing▲▼": "2-Jul",
-      "GMP Updated▲▼": "2-Jul 9:32",
+      "GMP Updated▲▼": "2-Jul 9:36",
       "": ""
     }
   ],
@@ -570,7 +570,7 @@
       "Price▲▼": "",
       "Est Listing▲▼": "--",
       "IPO Size▲▼": "5.01 Cr Shares",
-      "Lot▲▼": "TBD",
+      "Lot▲▼": "",
       "Open▲▼": "",
       "Close▲▼": "",
       "BoA Dt▲▼": "",
@@ -591,7 +591,7 @@
       "Close▲▼": "25-Jul",
       "BoA Dt▲▼": "28-Jul",
       "Listing▲▼": "30-Jul",
-      "GMP Updated▲▼": "18-Jul 11:56",
+      "GMP Updated▲▼": "18-Jul 12:33",
       "": ""
     },
     {
@@ -623,7 +623,7 @@
       "Close▲▼": "16-Jul",
       "BoA Dt▲▼": "17-Jul",
       "Listing▲▼": "21-Jul",
-      "GMP Updated▲▼": "18-Jul 12:01",
+      "GMP Updated▲▼": "18-Jul 12:34",
       "": ""
     },
     {
@@ -675,6 +675,22 @@
       "": ""
     },
     {
+      "Name▲▼": "Indogulf Cropsciences IPO L@111.00 (0%)",
+      "GMP▲▼": "₹18 (16.22%)",
+      "Fire Rating▲▼": "🔥🔥🔥",
+      "Sub▲▼": "27.17x",
+      "Price▲▼": "111",
+      "Est Listing▲▼": "129 (16.22%)",
+      "IPO Size▲▼": "₹200.66 Cr",
+      "Lot▲▼": "135",
+      "Open▲▼": "26-Jun",
+      "Close▲▼": "30-Jun",
+      "BoA Dt▲▼": "1-Jul",
+      "Listing▲▼": "3-Jul",
+      "GMP Updated▲▼": "3-Jul 9:35",
+      "": ""
+    },
+    {
       "Name▲▼": "Sambhv Steel Tubes IPO L@110.00 (34.15%)",
       "GMP▲▼": "₹14 (17.07%)",
       "Fire Rating▲▼": "🔥🔥🔥",
@@ -688,6 +704,22 @@
       "BoA Dt▲▼": "30-Jun",
       "Listing▲▼": "2-Jul",
       "GMP Updated▲▼": "2-Jul 9:29",
+      "": ""
+    },
+    {
+      "Name▲▼": "HDB Financial IPO L@835.00 (12.84%)",
+      "GMP▲▼": "₹75 (10.14%)",
+      "Fire Rating▲▼": "🔥🔥🔥",
+      "Sub▲▼": "17.65x",
+      "Price▲▼": "740",
+      "Est Listing▲▼": "815 (10.14%)",
+      "IPO Size▲▼": "₹12500.00 Cr",
+      "Lot▲▼": "20",
+      "Open▲▼": "25-Jun",
+      "Close▲▼": "27-Jun",
+      "BoA Dt▲▼": "30-Jun",
+      "Listing▲▼": "2-Jul",
+      "GMP Updated▲▼": "2-Jul 9:36",
       "": ""
     }
   ],
@@ -721,7 +753,7 @@
       "Close▲▼": "24-Jul",
       "BoA Dt▲▼": "25-Jul",
       "Listing▲▼": "29-Jul",
-      "GMP Updated▲▼": "18-Jul 11:54",
+      "GMP Updated▲▼": "18-Jul 12:34",
       "": ""
     },
     {
@@ -737,7 +769,7 @@
       "Close▲▼": "23-Jul",
       "BoA Dt▲▼": "24-Jul",
       "Listing▲▼": "28-Jul",
-      "GMP Updated▲▼": "18-Jul 11:54",
+      "GMP Updated▲▼": "18-Jul 12:30",
       "": ""
     },
     {
@@ -753,14 +785,14 @@
       "Close▲▼": "23-Jul",
       "BoA Dt▲▼": "24-Jul",
       "Listing▲▼": "28-Jul",
-      "GMP Updated▲▼": "18-Jul 11:57",
+      "GMP Updated▲▼": "18-Jul 12:30",
       "": ""
     },
     {
-      "Name▲▼": "Monika Alcobev BSE SME CT",
+      "Name▲▼": "Monika Alcobev BSE SME C",
       "GMP▲▼": "₹2 (0.70%)",
       "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "2.17x",
+      "Sub▲▼": "2.25x",
       "Price▲▼": "286",
       "Est Listing▲▼": "288 (0.7%)",
       "IPO Size▲▼": "₹153.68 Cr",
@@ -769,7 +801,7 @@
       "Close▲▼": "18-Jul",
       "BoA Dt▲▼": "21-Jul",
       "Listing▲▼": "23-Jul",
-      "GMP Updated▲▼": "18-Jul 11:57",
+      "GMP Updated▲▼": "18-Jul 12:33",
       "": ""
     },
     {
@@ -785,7 +817,7 @@
       "Close▲▼": "16-Jul",
       "BoA Dt▲▼": "17-Jul",
       "Listing▲▼": "21-Jul",
-      "GMP Updated▲▼": "18-Jul 11:55",
+      "GMP Updated▲▼": "18-Jul 12:37",
       "": ""
     },
     {
@@ -821,7 +853,7 @@
       "": ""
     },
     {
-      "Name▲▼": "GLEN Industries BSE SME L@157.00 (61.86%)",
+      "Name▲▼": "GLEN Industries BSE SME C",
       "GMP▲▼": "₹55 (56.70%)",
       "Fire Rating▲▼": "🔥🔥🔥🔥🔥",
       "Sub▲▼": "260.28x",
@@ -885,22 +917,6 @@
       "": ""
     },
     {
-      "Name▲▼": "White Force NSE SME L@77.00 (1.32%)",
-      "GMP▲▼": "₹5 (6.58%)",
-      "Fire Rating▲▼": "🔥🔥",
-      "Sub▲▼": "3.58x",
-      "Price▲▼": "76",
-      "Est Listing▲▼": "81 (6.58%)",
-      "IPO Size▲▼": "₹22.06 Cr",
-      "Lot▲▼": "1,600",
-      "Open▲▼": "3-Jul",
-      "Close▲▼": "7-Jul",
-      "BoA Dt▲▼": "8-Jul",
-      "Listing▲▼": "10-Jul",
-      "GMP Updated▲▼": "10-Jul 9:34",
-      "": ""
-    },
-    {
       "Name▲▼": "Cryogenic OGS BSE SME L@89.30 (90%)",
       "GMP▲▼": "₹38 (80.85%)",
       "Fire Rating▲▼": "🔥🔥🔥🔥🔥",
@@ -914,6 +930,22 @@
       "BoA Dt▲▼": "8-Jul",
       "Listing▲▼": "10-Jul",
       "GMP Updated▲▼": "10-Jul 9:30",
+      "": ""
+    },
+    {
+      "Name▲▼": "Happy Square Outsourcing NSE SME L@77.00 (1.32%)",
+      "GMP▲▼": "₹5 (6.58%)",
+      "Fire Rating▲▼": "🔥🔥",
+      "Sub▲▼": "3.58x",
+      "Price▲▼": "76",
+      "Est Listing▲▼": "81 (6.58%)",
+      "IPO Size▲▼": "₹22.06 Cr",
+      "Lot▲▼": "1,600",
+      "Open▲▼": "3-Jul",
+      "Close▲▼": "7-Jul",
+      "BoA Dt▲▼": "8-Jul",
+      "Listing▲▼": "10-Jul",
+      "GMP Updated▲▼": "10-Jul 9:34",
       "": ""
     },
     {
@@ -949,7 +981,7 @@
       "": ""
     },
     {
-      "Name▲▼": "Cedaar Textile IPO NSE SME L@119.00 (-15%)",
+      "Name▲▼": "Cedaar Textile NSE SME L@119.00 (-15%)",
       "GMP▲▼": "₹10 (7.14%)",
       "Fire Rating▲▼": "🔥🔥",
       "Sub▲▼": "12.26x",
@@ -981,7 +1013,7 @@
       "": ""
     },
     {
-      "Name▲▼": "Marc Loire BSE SME L@80.00 (-20%)",
+      "Name▲▼": "Marc Loire Fashions BSE SME L@80.00 (-20%)",
       "GMP▲▼": "₹-- (0.00%)",
       "Fire Rating▲▼": "🔥",
       "Sub▲▼": "2.61x",
@@ -994,6 +1026,22 @@
       "BoA Dt▲▼": "3-Jul",
       "Listing▲▼": "7-Jul",
       "GMP Updated▲▼": "7-Jul 9:29",
+      "": ""
+    },
+    {
+      "Name▲▼": "Adcounty Media BSE SME L@130.00 (52.94%)",
+      "GMP▲▼": "₹40 (47.06%)",
+      "Fire Rating▲▼": "🔥🔥🔥🔥",
+      "Sub▲▼": "273.08x",
+      "Price▲▼": "85",
+      "Est Listing▲▼": "125 (47.06%)",
+      "IPO Size▲▼": "₹47.83 Cr",
+      "Lot▲▼": "1,600",
+      "Open▲▼": "26-Jun",
+      "Close▲▼": "1-Jul",
+      "BoA Dt▲▼": "2-Jul",
+      "Listing▲▼": "4-Jul",
+      "GMP Updated▲▼": "4-Jul 9:31",
       "": ""
     },
     {
@@ -1010,38 +1058,6 @@
       "BoA Dt▲▼": "2-Jul",
       "Listing▲▼": "4-Jul",
       "GMP Updated▲▼": "4-Jul 9:37",
-      "": ""
-    },
-    {
-      "Name▲▼": "Adcounty Media India BSE SME L@130.00 (52.94%)",
-      "GMP▲▼": "₹40 (47.06%)",
-      "Fire Rating▲▼": "🔥🔥🔥🔥",
-      "Sub▲▼": "273.08x",
-      "Price▲▼": "85",
-      "Est Listing▲▼": "125 (47.06%)",
-      "IPO Size▲▼": "₹47.83 Cr",
-      "Lot▲▼": "1,600",
-      "Open▲▼": "26-Jun",
-      "Close▲▼": "1-Jul",
-      "BoA Dt▲▼": "2-Jul",
-      "Listing▲▼": "4-Jul",
-      "GMP Updated▲▼": "4-Jul 9:31",
-      "": ""
-    },
-    {
-      "Name▲▼": "Ace Alpha Tech BSE SME L@81.00 (17.39%)",
-      "GMP▲▼": "₹30 (43.48%)",
-      "Fire Rating▲▼": "🔥🔥🔥🔥",
-      "Sub▲▼": "101.75x",
-      "Price▲▼": "69",
-      "Est Listing▲▼": "99 (43.48%)",
-      "IPO Size▲▼": "₹30.40 Cr",
-      "Lot▲▼": "2,000",
-      "Open▲▼": "26-Jun",
-      "Close▲▼": "30-Jun",
-      "BoA Dt▲▼": "1-Jul",
-      "Listing▲▼": "3-Jul",
-      "GMP Updated▲▼": "3-Jul 9:33",
       "": ""
     },
     {
@@ -1093,166 +1109,25 @@
       "": ""
     },
     {
-      "Name▲▼": "Rama Telecom NSE SME L@72.00 (5.88%)",
-      "GMP▲▼": "₹-- (0.00%)",
-      "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "1.61x",
-      "Price▲▼": "68",
-      "Est Listing▲▼": "68 (0%)",
-      "IPO Size▲▼": "₹23.87 Cr",
-      "Lot▲▼": "2,000",
-      "Open▲▼": "25-Jun",
-      "Close▲▼": "27-Jun",
-      "BoA Dt▲▼": "30-Jun",
-      "Listing▲▼": "2-Jul",
-      "GMP Updated▲▼": "2-Jul 9:31",
-      "": ""
-    },
-    {
-      "Name▲▼": "Suntech Infra Solutions NSE SME L@109.10 (26.86%)",
-      "GMP▲▼": "₹41 (47.67%)",
+      "Name▲▼": "Ace Alpha Tech BSE SME L@81.00 (17.39%)",
+      "GMP▲▼": "₹30 (43.48%)",
       "Fire Rating▲▼": "🔥🔥🔥🔥",
-      "Sub▲▼": "223.64x",
-      "Price▲▼": "86",
-      "Est Listing▲▼": "127 (47.67%)",
-      "IPO Size▲▼": "₹42.16 Cr",
-      "Lot▲▼": "1,600",
-      "Open▲▼": "25-Jun",
-      "Close▲▼": "27-Jun",
-      "BoA Dt▲▼": "30-Jun",
-      "Listing▲▼": "2-Jul",
-      "GMP Updated▲▼": "2-Jul 9:32",
+      "Sub▲▼": "101.75x",
+      "Price▲▼": "69",
+      "Est Listing▲▼": "99 (43.48%)",
+      "IPO Size▲▼": "₹30.40 Cr",
+      "Lot▲▼": "2,000",
+      "Open▲▼": "26-Jun",
+      "Close▲▼": "30-Jun",
+      "BoA Dt▲▼": "1-Jul",
+      "Listing▲▼": "3-Jul",
+      "GMP Updated▲▼": "3-Jul 9:33",
       "": ""
     }
   ],
   "currentGMP": [
     {
-      "Name▲▼": "NSDL IPO U",
-      "GMP▲▼": "₹-- (0.00%)",
-      "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "",
-      "Price▲▼": "",
-      "Est Listing▲▼": "--",
-      "IPO Size▲▼": "5.01 Cr Shares",
-      "Lot▲▼": "TBD",
-      "Open▲▼": "",
-      "Close▲▼": "",
-      "BoA Dt▲▼": "",
-      "Listing▲▼": "",
-      "GMP Updated▲▼": "18-Jul 11:33",
-      "": ""
-    },
-    {
-      "Name▲▼": "Indiqube Spaces IPO U",
-      "GMP▲▼": "₹-- (0.00%)",
-      "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "",
-      "Price▲▼": "237",
-      "Est Listing▲▼": "237 (0%)",
-      "IPO Size▲▼": "₹700.00 Cr",
-      "Lot▲▼": "63",
-      "Open▲▼": "23-Jul",
-      "Close▲▼": "25-Jul",
-      "BoA Dt▲▼": "28-Jul",
-      "Listing▲▼": "30-Jul",
-      "GMP Updated▲▼": "18-Jul 11:56",
-      "": ""
-    },
-    {
-      "Name▲▼": "TSC India NSE SME U",
-      "GMP▲▼": "₹-- (0.00%)",
-      "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "",
-      "Price▲▼": "70",
-      "Est Listing▲▼": "--",
-      "IPO Size▲▼": "₹24.58 Cr",
-      "Lot▲▼": "2,000",
-      "Open▲▼": "23-Jul",
-      "Close▲▼": "25-Jul",
-      "BoA Dt▲▼": "28-Jul",
-      "Listing▲▼": "30-Jul",
-      "GMP Updated▲▼": "18-Jul 11:33",
-      "": ""
-    },
-    {
-      "Name▲▼": "PropShare Titania IPO U",
-      "GMP▲▼": "₹-- (0.00%)",
-      "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "",
-      "Price▲▼": "10,60,000",
-      "Est Listing▲▼": "--",
-      "IPO Size▲▼": "₹473.00 Cr",
-      "Lot▲▼": "1",
-      "Open▲▼": "21-Jul",
-      "Close▲▼": "25-Jul",
-      "BoA Dt▲▼": "30-Jul",
-      "Listing▲▼": "4-Aug",
-      "GMP Updated▲▼": "18-Jul 11:33",
-      "": ""
-    },
-    {
-      "Name▲▼": "Monarch Surveyors BSE SME U",
-      "GMP▲▼": "₹150 (60.00%)",
-      "Fire Rating▲▼": "🔥🔥🔥🔥🔥",
-      "Sub▲▼": "",
-      "Price▲▼": "250",
-      "Est Listing▲▼": "400 (60%)",
-      "IPO Size▲▼": "₹88.58 Cr",
-      "Lot▲▼": "600",
-      "Open▲▼": "22-Jul",
-      "Close▲▼": "24-Jul",
-      "BoA Dt▲▼": "25-Jul",
-      "Listing▲▼": "29-Jul",
-      "GMP Updated▲▼": "18-Jul 11:54",
-      "": ""
-    },
-    {
-      "Name▲▼": "Swastika Castal BSE SME U",
-      "GMP▲▼": "₹-- (0.00%)",
-      "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "",
-      "Price▲▼": "65",
-      "Est Listing▲▼": "65 (0%)",
-      "IPO Size▲▼": "₹13.35 Cr",
-      "Lot▲▼": "2,000",
-      "Open▲▼": "21-Jul",
-      "Close▲▼": "23-Jul",
-      "BoA Dt▲▼": "24-Jul",
-      "Listing▲▼": "28-Jul",
-      "GMP Updated▲▼": "18-Jul 11:54",
-      "": ""
-    },
-    {
-      "Name▲▼": "Savy Infra NSE SME U",
-      "GMP▲▼": "₹11 (9.17%)",
-      "Fire Rating▲▼": "🔥🔥",
-      "Sub▲▼": "",
-      "Price▲▼": "120",
-      "Est Listing▲▼": "131 (9.17%)",
-      "IPO Size▲▼": "₹66.47 Cr",
-      "Lot▲▼": "1,200",
-      "Open▲▼": "21-Jul",
-      "Close▲▼": "23-Jul",
-      "BoA Dt▲▼": "24-Jul",
-      "Listing▲▼": "28-Jul",
-      "GMP Updated▲▼": "18-Jul 11:57",
-      "": ""
-    },
-    {
-      "Name▲▼": "Monika Alcobev BSE SME CT",
-      "GMP▲▼": "₹2 (0.70%)",
-      "Fire Rating▲▼": "🔥",
-      "Sub▲▼": "2.17x",
-      "Price▲▼": "286",
-      "Est Listing▲▼": "288 (0.7%)",
-      "IPO Size▲▼": "₹153.68 Cr",
-      "Lot▲▼": "400",
-      "Open▲▼": "16-Jul",
-      "Close▲▼": "18-Jul",
-      "BoA Dt▲▼": "21-Jul",
-      "Listing▲▼": "23-Jul",
-      "GMP Updated▲▼": "18-Jul 11:57",
-      "": ""
+      "No Record▲▼": "No data available"
     }
   ],
   "allPerf": [
@@ -1262,19 +1137,19 @@
   ],
   "allSub": [
     {
-      "Name▲▼": "Monika Alcobev BSE SME CTGMP:₹2 (0.70%)",
-      "Total▲▼": "2.17x",
-      "BID Date▲▼": "18th Jul 12:05",
+      "Name▲▼": "Monika Alcobev BSE SME CGMP:₹2 (0.70%)",
+      "Total▲▼": "2.25x",
+      "BID Date▲▼": "18th Jul 12:35",
       "QIB▲▼": "1.09x",
-      "SHNI▲▼": "1.65x",
-      "BHNI▲▼": "7.59x",
-      "NII▲▼": "5.09x",
-      "RII▲▼": "1.55x",
+      "SHNI▲▼": "1.75x",
+      "BHNI▲▼": "7.61x",
+      "NII▲▼": "5.14x",
+      "RII▲▼": "1.68x",
       "IPO Size▲▼": "₹153.68 Cr",
       "IPO Price▲▼": "286",
       "Lot▲▼": "400",
       "P/E▲▼": "20.61",
-      "Close Date▲▼": "18th Jul 2025",
+      "Close Date▲▼": "2025-07-18 00:00:00",
       "": ""
     },
     {
@@ -1290,7 +1165,7 @@
       "IPO Price▲▼": "96",
       "Lot▲▼": "1,200",
       "P/E▲▼": "15.79",
-      "Close Date▲▼": "16th Jul 2025",
+      "Close Date▲▼": "2025-07-16 00:00:00",
       "": ""
     },
     {
@@ -1306,7 +1181,7 @@
       "IPO Price▲▼": "570",
       "Lot▲▼": "26",
       "P/E▲▼": "70.62",
-      "Close Date▲▼": "16th Jul 2025",
+      "Close Date▲▼": "2025-07-16 00:00:00",
       "": ""
     },
     {
@@ -1322,7 +1197,7 @@
       "IPO Price▲▼": "407",
       "Lot▲▼": "36",
       "P/E▲▼": "--",
-      "Close Date▲▼": "14th Jul 2025",
+      "Close Date▲▼": "2025-07-14 00:00:00",
       "": ""
     },
     {
@@ -1338,7 +1213,7 @@
       "IPO Price▲▼": "123",
       "Lot▲▼": "1,000",
       "P/E▲▼": "17.83",
-      "Close Date▲▼": "11th Jul 2025",
+      "Close Date▲▼": "2025-07-11 00:00:00",
       "": ""
     },
     {
@@ -1354,11 +1229,11 @@
       "IPO Price▲▼": "585",
       "Lot▲▼": "200",
       "P/E▲▼": "47.77",
-      "Close Date▲▼": "11th Jul 2025",
+      "Close Date▲▼": "2025-07-11 00:00:00",
       "": ""
     },
     {
-      "Name▲▼": "GLEN Industries BSE SME L@157.00 (61.86%)",
+      "Name▲▼": "GLEN Industries BSE SME CGMP:₹55 (56.70%)",
       "Total▲▼": "260.28x",
       "BID Date▲▼": "10th Jul 17:05",
       "QIB▲▼": "192.46x",
@@ -1370,7 +1245,7 @@
       "IPO Price▲▼": "97",
       "Lot▲▼": "1,200",
       "P/E▲▼": "9.33",
-      "Close Date▲▼": "10th Jul 2025",
+      "Close Date▲▼": "2025-07-10 00:00:00",
       "": ""
     },
     {
@@ -1386,23 +1261,7 @@
       "IPO Price▲▼": "248",
       "Lot▲▼": "600",
       "P/E▲▼": "9.71",
-      "Close Date▲▼": "9th Jul 2025",
-      "": ""
-    },
-    {
-      "Name▲▼": "Travel Food Services IPO L@1125.00 (2.27%)",
-      "Total▲▼": "3.03x",
-      "BID Date▲▼": "9th Jul 17:05",
-      "QIB▲▼": "8.1x",
-      "SHNI▲▼": "1.33x",
-      "BHNI▲▼": "1.83x",
-      "NII▲▼": "1.67x",
-      "RII▲▼": "0.73x",
-      "IPO Size▲▼": "₹2000.00 Cr",
-      "IPO Price▲▼": "1,100",
-      "Lot▲▼": "13",
-      "P/E▲▼": "48.60",
-      "Close Date▲▼": "9th Jul 2025",
+      "Close Date▲▼": "2025-07-09 00:00:00",
       "": ""
     },
     {
@@ -1418,7 +1277,23 @@
       "IPO Price▲▼": "100",
       "Lot▲▼": "1,200",
       "P/E▲▼": "11.75",
-      "Close Date▲▼": "9th Jul 2025",
+      "Close Date▲▼": "2025-07-09 00:00:00",
+      "": ""
+    },
+    {
+      "Name▲▼": "Travel Food Services IPO L@1125.00 (2.27%)",
+      "Total▲▼": "3.03x",
+      "BID Date▲▼": "9th Jul 17:05",
+      "QIB▲▼": "8.1x",
+      "SHNI▲▼": "1.33x",
+      "BHNI▲▼": "1.83x",
+      "NII▲▼": "1.67x",
+      "RII▲▼": "0.73x",
+      "IPO Size▲▼": "₹2000.00 Cr",
+      "IPO Price▲▼": "1,100",
+      "Lot▲▼": "13",
+      "P/E▲▼": "48.60",
+      "Close Date▲▼": "2025-07-09 00:00:00",
       "": ""
     },
     {
@@ -1434,23 +1309,7 @@
       "IPO Price▲▼": "161",
       "Lot▲▼": "800",
       "P/E▲▼": "19.58",
-      "Close Date▲▼": "8th Jul 2025",
-      "": ""
-    },
-    {
-      "Name▲▼": "White Force NSE SME L@77.00 (1.32%)",
-      "Total▲▼": "3.58x",
-      "BID Date▲▼": "7th Jul 18:21",
-      "QIB▲▼": "7.16x",
-      "SHNI▲▼": "",
-      "BHNI▲▼": "",
-      "NII▲▼": "2.24x",
-      "RII▲▼": "2.12x",
-      "IPO Size▲▼": "₹22.06 Cr",
-      "IPO Price▲▼": "76",
-      "Lot▲▼": "1,600",
-      "P/E▲▼": "10.83",
-      "Close Date▲▼": "7th Jul 2025",
+      "Close Date▲▼": "2025-07-08 00:00:00",
       "": ""
     },
     {
@@ -1466,7 +1325,23 @@
       "IPO Price▲▼": "47",
       "Lot▲▼": "3,000",
       "P/E▲▼": "8.06",
-      "Close Date▲▼": "7th Jul 2025",
+      "Close Date▲▼": "2025-07-07 00:00:00",
+      "": ""
+    },
+    {
+      "Name▲▼": "Happy Square Outsourcing NSE SME L@77.00 (1.32%)",
+      "Total▲▼": "3.58x",
+      "BID Date▲▼": "7th Jul 18:21",
+      "QIB▲▼": "7.16x",
+      "SHNI▲▼": "",
+      "BHNI▲▼": "",
+      "NII▲▼": "2.24x",
+      "RII▲▼": "2.12x",
+      "IPO Size▲▼": "₹22.06 Cr",
+      "IPO Price▲▼": "76",
+      "Lot▲▼": "1,600",
+      "P/E▲▼": "10.83",
+      "Close Date▲▼": "2025-07-07 00:00:00",
       "": ""
     },
     {
@@ -1482,7 +1357,7 @@
       "IPO Price▲▼": "245",
       "Lot▲▼": "61",
       "P/E▲▼": "28.03",
-      "Close Date▲▼": "4th Jul 2025",
+      "Close Date▲▼": "2025-07-04 00:00:00",
       "": ""
     },
     {
@@ -1498,7 +1373,7 @@
       "IPO Price▲▼": "161",
       "Lot▲▼": "800",
       "P/E▲▼": "12.98",
-      "Close Date▲▼": "2nd Jul 2025",
+      "Close Date▲▼": "2025-07-02 00:00:00",
       "": ""
     },
     {
@@ -1514,11 +1389,11 @@
       "IPO Price▲▼": "115",
       "Lot▲▼": "1,200",
       "P/E▲▼": "24.98",
-      "Close Date▲▼": "2nd Jul 2025",
+      "Close Date▲▼": "2025-07-02 00:00:00",
       "": ""
     },
     {
-      "Name▲▼": "Cedaar Textile IPO NSE SME L@119.00 (-15%)",
+      "Name▲▼": "Cedaar Textile NSE SME L@119.00 (-15%)",
       "Total▲▼": "12.26x",
       "BID Date▲▼": "2nd Jul 18:20",
       "QIB▲▼": "37.88x",
@@ -1530,7 +1405,7 @@
       "IPO Price▲▼": "140",
       "Lot▲▼": "1,000",
       "P/E▲▼": "12.07",
-      "Close Date▲▼": "2nd Jul 2025",
+      "Close Date▲▼": "2025-07-02 00:00:00",
       "": ""
     },
     {
@@ -1546,11 +1421,11 @@
       "IPO Price▲▼": "147",
       "Lot▲▼": "1,000",
       "P/E▲▼": "12.10",
-      "Close Date▲▼": "2nd Jul 2025",
+      "Close Date▲▼": "2025-07-02 00:00:00",
       "": ""
     },
     {
-      "Name▲▼": "Marc Loire BSE SME L@80.00 (-20%)",
+      "Name▲▼": "Marc Loire Fashions BSE SME L@80.00 (-20%)",
       "Total▲▼": "2.61x",
       "BID Date▲▼": "2nd Jul 17:05",
       "QIB▲▼": "",
@@ -1562,23 +1437,23 @@
       "IPO Price▲▼": "100",
       "Lot▲▼": "1,200",
       "P/E▲▼": "10.63",
-      "Close Date▲▼": "2nd Jul 2025",
+      "Close Date▲▼": "2025-07-02 00:00:00",
       "": ""
     },
     {
-      "Name▲▼": "Neetu Yoshi BSE SME L@105.00 (40%)",
-      "Total▲▼": "128.18x",
+      "Name▲▼": "Adcounty Media BSE SME L@130.00 (52.94%)",
+      "Total▲▼": "273.08x",
       "BID Date▲▼": "1st Jul 17:05",
-      "QIB▲▼": "96.36x",
+      "QIB▲▼": "137.33x",
       "SHNI▲▼": "",
       "BHNI▲▼": "",
-      "NII▲▼": "256.69x",
-      "RII▲▼": "91.21x",
-      "IPO Size▲▼": "₹73.14 Cr",
-      "IPO Price▲▼": "75",
+      "NII▲▼": "555.79x",
+      "RII▲▼": "229.37x",
+      "IPO Size▲▼": "₹47.83 Cr",
+      "IPO Price▲▼": "85",
       "Lot▲▼": "1,600",
-      "P/E▲▼": "17.02",
-      "Close Date▲▼": "1st Jul 2025",
+      "P/E▲▼": "10.16",
+      "Close Date▲▼": "2025-07-01 00:00:00",
       "": ""
     }
   ]
